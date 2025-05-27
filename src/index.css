@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+
+@theme {
+  
+  /* fonts */
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  
+  /* font Sizes */
+  /* 12px */
+  --text-xs: 0.75rem; 
+  /* 13.6px */
+  --text-ssm: 0.85rem;
+  /* 16px */
+  --text-base: 1rem;
+  /* 20px */
+  --text-lg: 1.25rem;
+  /* 24px */
+  --text-2xl: 1.5rem;
+  /* 30px */
+  --text-3xl: 1.875rem;
+  /* 36px */
+  --text-4xl: 2.25rem;
+
+  /* line height and letter spacing */
+
+  /* 24px */
+  --leading-normal: 1.5;
+  /* -0.24px */
+  --tracking-tight: -0.015em;
+  /* 0.8px */
+  --tracking-wide: 0.05em;
+
+  /* spacing scale */
+  /* 4px */
+  --space-1: 0.25rem;
+  /* 8px */
+  --space-2: 0.5rem;
+  /* 12px */
+  --space-3: 0.75rem;
+  /* 16px */
+  --space-4: 1rem;
+  /* 24px */
+  --space-6: 1.5rem;
+  /* 32px */
+  --space-8: 2rem;
+  /* 48px */
+  --space-12: 3rem;
+  /* 64px */
+  --space-16: 4rem;
+
+
+  /* border radius */
+
+  --radius--sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* shadows and elivation */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.01);
+  --shadow-md: 0 1px 6px rgba(0,0,0,0.0.1);
+  --shadow-lg: 0 1px 15px rgba(0,0,0,0.0.1);
+
+
+
+  /* z-index tokens */
+  --z-header: 50;
+  --z-dropdown: 100;
+  --z-modal: 200;
+  --z-toast: 300;
+
+  /* color pallettes */
+  --color-primary: #0057D8;
+
+ /* footer color dark gray*/
+  --color-secondary: #101828;
+
+
+  --color-accent: #28D1a5;
+  --color-text: #1A1A1A;
+
+
+  /* button colors */
+  --color-first: #00b8db;
+  --color-hover: #1447e6;
+
+
+  /* number colors */
+  --color-orange: #f54a00;
+
+  /* title color */
+   --color-darkishBlue: #1447e6;
+
+   /* certain heading colors : why us */
+   --color-subHeading: #00b8db;
+
+  /* span color */
+  --color-orange: #ff6900;
+
+  /* underline color */
+  --color-blue: #f54a00;
+
+  /* heading color */
+  --color-littleBlue: #2b7fff;
+
+
+}
