@@ -2,7 +2,10 @@ import React from "react";
 
 const Account = () => {
   return (
-    <div className=" bg-green-100/60 mx-auto px-6 py-16">
+    <div>
+      <hr />
+       <div className=" bg-green-100/60 mx-auto px-6 py-16">
+      
       <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12">
         Account Information
       </h1>
@@ -44,6 +47,8 @@ const Account = () => {
         </div>
       </div>
     </div>
+    </div>
+   
   );
 };
 

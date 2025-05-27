@@ -95,11 +95,18 @@
   /* title color */
    --color-darkishBlue: #1447e6;
 
+   /* glassy darkishblue */
+   --color-glassBlue: rgba(20, 48, 80, 0.9);
+
    /* certain heading colors : why us */
    --color-subHeading: #00b8db;
 
   /* span color */
   --color-orange: #ff6900;
+
+
+  /* color creamy white */
+  --color-creamyWhite: #FFFAF0;
 
   /* underline color */
   --color-blue: #f54a00;

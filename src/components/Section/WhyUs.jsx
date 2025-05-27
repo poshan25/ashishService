@@ -8,7 +8,8 @@ const WhyUs = ({ numbers, info, learnMore }) => {
           {numbers}
         </h3>
         <p className="text-lg text-gray-200">{info}</p>
-        <button className="border border-gray-600 rounded-full p-2 mt-10 bg-gray-500">
+        <button style={{ backgroundColor: "var(--color-first)",    backdropFilter: "blur(8px)",
+  }} className="border cursor-pointer border-blue-400  rounded-full p-2 mt-10 ">
           {learnMore}
         </button>
       </div>

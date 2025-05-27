@@ -55,7 +55,7 @@ const ContactPage = () => {
   return (
     <div className="max-w-6xl mx-auto px-6 py-12 md:py-20">
       {/* Page Heading */}
-      <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-12 text-center">
+      <h1 style={{ color: "var(--color-orange)" }} className="text-4xl md:text-5xl font-bold  mb-12 text-center">
         Contact Us
       </h1>
 

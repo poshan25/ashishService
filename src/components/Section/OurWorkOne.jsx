@@ -12,7 +12,7 @@ const OurWorkOne = ({
       <section className="w-full px-6  py-12">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2 text-gray-800 space-y-4">
-            <h2 className="text-3xl font-bold text-blue-700">{title1}</h2>
+            <h2 style={{ color: "var(--color-darkishBlue)" }} className="text-3xl font-bold ">{title1}</h2>
             <p className="text-lg leading-relaxed">{description1} </p>
           </div>
 
