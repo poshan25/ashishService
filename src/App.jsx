@@ -9,7 +9,9 @@ import ContactPage from "./components/Section/ContactUs";
 import Footer from "./components/Layout/Footer";
 import Work from "./components/Section/Work";
 import Popup from "./components/Section/Popup";
-import Account from "./components/Section/Account";
+// import Account from "./components/Section/Account";
+import Donate from "./components/Section/Donate";
+import Account from "./components/pages/Account";
 
 const HomePage = () => {
  
@@ -32,13 +34,14 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+
       )} */}
 
       <Popup/>
 
       {/* Navigation */}
       <NavBar />
-
+{/* <Account/> */}
       {/* Hero Section */}
       <HeroSection />
 
@@ -46,14 +49,14 @@ const HomePage = () => {
       {/* <PaperCut /> */}
       {/* worldwide */}
       <Worldwide/>
-      
+
 {/* hands and Myth */}
       <Myth/>
 
       <Work/>
 
 <ContactPage/>
-<Account/>
+<Donate/>
 <Footer/>
 
       {/* aboutus  */}

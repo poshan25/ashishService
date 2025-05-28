@@ -7,9 +7,11 @@ import OurWorkTwo from "./OurWorkTwo";
 const Work = () => {
   return (
     <>
-      <p className="text-center text-[40px] font-bold text-blue-500 mt-15">
+      <div  style={{ color: "var(--color-pprimary)" }}  className="text-center text-[40px] font-bold mt-15">
         OUR WORK
-      </p>
+                <div style={{ color: "var(--color-ssecondary)" }} className="mt-[-50px] ">______________</div>
+
+      </div>
       
       {/* <OurWorkOne/> */}
       <OurWorkOne title1={"EMPOWERMENT"} description1={" ASSN helps rescued girls heal emotionally, learn about humanrights, and build leadership skills. They also offer job training like sewing, embroidery, and craft-making to help them become independent. Finance and admin teams support these programs."} image1={"/images/empowerment.jpg"}/>

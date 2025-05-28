@@ -75,43 +75,11 @@ const Myth = () => {
       <div className="container   mx-auto max-w-6xl px-6 h-full flex flex-col items-center justify-center">
         {/* Three Containers */}
         <div className="grid font-bold grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-          <WhyUs numbers={"1000+"} info={"Counseling and Information Sharing at Nepal-India Border"} learnMore={"Learn More"}/>
+          <WhyUs  numbers={"1000+"} info={"Counseling and Information Sharing at Nepal-India Border"} learnMore={"Learn More"}/>
           <WhyUs numbers={"500+"} info={"Trafficked Victims Rescued"} learnMore={"Learn More"}/>
           <WhyUs numbers={"2500+"} info={"Girls Who Attended Safe Home & Training Centers."} learnMore={"Learn More"}/>
 
-          {/* <div className="bg-white/70 backdrop-blur-sm p-6 rounded-xl text-white text-center">
-            <h3 className="text-4xl font-bold text-gray-800 mb-15  mb-2">
-              1000+
-            </h3>
-            <p className="text-lg text-gray-800">
-              Counseling and Information Sharing at Nepal-India Border
-            </p>
-            <button className="border rounded-full p-2 mt-10 bg-gray-500">
-              LEARN MORE
-            </button>
-          </div>
-
-          <div className="bg-white/80  backdrop-blur-sm p-6 rounded-xl text-white text-center">
-            <h3 className="text-4xl text-gray-800 mb-15 font-bold mb-2">
-              500+
-            </h3>
-            <p className="text-lg text-gray-800">Trafficked Victims Rescued</p>
-            <button className="border rounded-full p-2 bg-gray-600 mt-10">
-              LEARN MORE
-            </button>
-          </div>
-
-          <div className="bg-white/90  backdrop-blur-lg p-6 rounded-xl text-white text-center">
-            <h3 className="text-4xl text-gray-800 mb-15 font-bold mb-2">
-              2500+
-            </h3>
-            <p className="text-lg text-gray-800">
-              Girls Who Attended Safe Home & Training Centers.
-            </p>
-            <button className="border rounded-full bg-gray-700 p-2 mt-10">
-              LEARN MORE
-            </button>
-          </div> */}
+          
         </div>
       </div>
     </div>

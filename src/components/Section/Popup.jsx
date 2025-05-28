@@ -50,9 +50,7 @@ const Popup = () => {
         />
 
         <div className="p-5 text-gray-700 text-center">
-          <p className="text-lg">Thanks for visiting! 😊</p>
-          <p>You can scroll the page now!</p>
-        </div>
+          </div>
       </div>
     </div>
   );

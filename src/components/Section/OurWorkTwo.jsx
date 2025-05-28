@@ -4,7 +4,8 @@ const OurWorkTwo = ({ title2, description2, image2 }) => {
   return (
     <div>
       {/* // yo section chai description first image second ma dakhauna ko lagi */}
-      <section style={{ background: "var(--color-creamyWhite)" }} className="w-full px-6 py-12">
+      <section               style={{ background: "#f5f5f5" }}
+  className="w-full  px-6 py-12">
         <div
         
           className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10"

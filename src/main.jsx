@@ -10,6 +10,7 @@ import Donate from "./components/Section/Donate.jsx";
 
 import ContactUs from "./components/Section/ContactUs.jsx";
 import Notfound from "./components/Section/Notfound.jsx";
+import AccountPage from "./components/pages/Account.jsx";
 // import Dashboard from "./components/Section/DashboardItems.jsx";
 
 const router = createBrowserRouter([
@@ -20,6 +21,8 @@ const router = createBrowserRouter([
   { path: "/donate", element: <Donate /> },
   { path: "/contact", element: <ContactUs /> },
   { path: "/*", element: <Notfound /> },
+    { path: "/account", element: <AccountPage /> },
+
   //dymanic route
   // funny name nai cha aaile ko lagi  later ka change garnu parne herne
 

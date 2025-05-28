@@ -77,9 +77,13 @@
   --color-primary: #0057D8;
 
  /* footer color dark gray*/
+ --color-lightGray: #232f3e;
+  --color-firstChoice: #131a22;
   --color-secondary: #101828;
-
-
+ 
+  /* footer text */
+  --color-bigText: #d7d4d7;
+  --color-fontLight: #dddddd; 
   --color-accent: #28D1a5;
   --color-text: #1A1A1A;
 
@@ -114,5 +118,61 @@
   /* heading color */
   --color-littleBlue: #2b7fff;
 
+/* accountsection */
+  --color-mediumgray: #232f3e;
+  /* .................................................. */
 
+
+  /* new modern Teal & Slate */
+/* .................................... */
+
+ --color-pprimary: #2C6973;
+  /* --color-pprimary:#68B2A0; */
+  /* Where to Use:
+Main logo accents (if the logo allows for color integration).
+Primary buttons (e.g., "Contact Us," "Sign Up").
+Navigation bar background or active tab indicators.
+Section headers or key dividers. */
+ 
+
+  --color-ssecondary: #68B2A0;
+  /* Where to Use:
+Hover states for buttons/links (e.g., darken to #5A9A8A on hover).
+Secondary CTAs (e.g., "Learn More," "Download").
+Accent borders or icons to add subtle contrast. */
+
+/* for contact us */
+  --color-darkBlue: #0a1733;
+
+
+--color-nneutral: #FFFF;
+
+/* Where to Use:
+Page background (avoids stark white while maintaining readability).
+Card/dashboard backgrounds (e.g., testimonials, feature boxes).
+Horizontal dividers between sections. */
+
+
+
+--color-nneutralTwo: #505D6B ;
+/* Where to Use:
+Body text (ensures readability without harsh black).
+Footer text and secondary navigation links.
+Disabled button states or inactive elements. */
+
+
+/* why usbg */
+
+  --color-whyus: #0a1733;
+
+  /* ourwork bg */
+
+  --color-ourWorkBg: #eaeff2;
+
+/* white color */
+  --color-navWhite: #ffffff;
+  /* navopen */
+  --color-navOpen: #efecec;
+  /* navtext */
+  --color-navText: #000000;
 }

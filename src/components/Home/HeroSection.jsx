@@ -202,7 +202,7 @@ const HeroSection = () => {
       {/* Background elements */}
       <div className="absolute inset-0 bg-black/30 z-0" />
       <img 
-        src="images/hero4.png"
+        src="images/newHeroImage.jpeg"
         alt="heroImg"
         className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
       />
