@@ -57,7 +57,7 @@ const HomePage = () => {
 
 <ContactPage/>
 <Donate/>
-<Footer/>
+{/* <Footer/> */}
 
       {/* aboutus  */}
      {/* <Aboutus/> later show garne */}

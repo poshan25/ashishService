@@ -1,6 +1,14 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Donate = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/account');
+  }
+
   return (
     <div>
       <hr className="h-px bg-gray-300 border-0" />
@@ -18,7 +26,7 @@ const Donate = () => {
 
         {/* Enhanced Donate Button */}
         <div className="flex justify-center mt-8">
-          <button
+          <button onClick={handleClick}
             style={{
               background: "var(--color-pprimary)",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)"
@@ -30,7 +38,9 @@ const Donate = () => {
                       focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500
                       min-w-[200px] text-center"
           >
-            <span className="relative z-10">Donate Now</span>
+            <span className="relative z-10">
+              Donate Now
+              </span>
             {/* Button shine effect on hover */}
             <span className="absolute inset-0 overflow-hidden rounded-lg">
               <span className="absolute inset-0 bg-gradient-to-r from-white/10 via-white/30 to-white/10 

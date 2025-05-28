@@ -2,7 +2,7 @@ import React from 'react'
 
 const RecentActivities = () => {
   return (
-    <div>RecentActivities</div>
+    <div className='pt-20'>RecentActivities</div>
   )
 }
 

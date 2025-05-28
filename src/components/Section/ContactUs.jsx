@@ -118,10 +118,11 @@
 
 import React from "react";
 import MapEmbed from "./MapEmbeed";
+import Footer from "../Layout/Footer";
 
 const ContactPage = () => {
   return (
-    <div>
+    <div className="pt-20">
       <hr className="h-px bg-gray-300 border-0" />
       <div className="max-w-6xl mx-auto px-6 py-12 md:py-20">
         {/* Page Heading */}
@@ -192,6 +193,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };
