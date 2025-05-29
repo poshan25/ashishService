@@ -52,8 +52,9 @@
 import React from "react";
 import { useRef, useState } from "react";
 import WhyUs from "./WhyUs";
+import Button from "../Layout/Button";
 
-const Myth = () => {
+const Myth = ({learnMore}) => {
   return (
     <div className="relative w-full min-h-[500px] py-12">
       {/* Background Image */}
@@ -75,7 +76,7 @@ const Myth = () => {
       <div className="container   mx-auto max-w-6xl px-6 h-full flex flex-col items-center justify-center">
         {/* Three Containers */}
         <div className="grid font-bold grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
-          <WhyUs  numbers={"1000+"} info={"Counseling and Information Sharing at Nepal-India Border"} learnMore={"Learn More"}/>
+          <WhyUs   numbers={"1000+"} info={"Counseling and Information Sharing at Nepal-India Border"}  />
           <WhyUs numbers={"500+"} info={"Trafficked Victims Rescued"} learnMore={"Learn More"}/>
           <WhyUs numbers={"2500+"} info={"Girls Who Attended Safe Home & Training Centers."} learnMore={"Learn More"}/>
 

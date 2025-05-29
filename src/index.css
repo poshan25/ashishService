@@ -175,4 +175,58 @@ Disabled button states or inactive elements. */
   --color-navOpen: #efecec;
   /* navtext */
   --color-navText: #000000;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* naya color haru jun final colors ho */
+
+
+  /* button colors */
+--color-btnColor: #00b8db;
+--color-btnHover: #1447e6;
+
+    /* number colors */
+    --color-number: #ff6900;
+
+    /* title colors like : Ourwork, about etc*/
+    --color-title: #1447e6;
+    --color-titleUnderline: #00b8db;
+
+
+    /* subheading color */
+    
+    --color-subHeading: #1447e6;
+
+
+     /* font color */
+     --color-titleFont: #495159;
+     --color-subTitleFont: #1a1a1a;
+
+
+     /* footer font */
+     --color-footerTitles: #dadada;
+     --color-footerSubTitles: #dddddd;
+
+
+
+
 }

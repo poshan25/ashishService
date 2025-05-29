@@ -40,14 +40,15 @@
 // export default WhyUs;
 
 import React from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import Button from "../Layout/Button";
 
-const WhyUs = ({ numbers, info, learnMore }) => {
+const WhyUs = ({ numbers, info, text, background }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate('/aboutus');
-  }
+    navigate("/aboutus");
+  };
 
   return (
     <>
@@ -68,8 +69,7 @@ const WhyUs = ({ numbers, info, learnMore }) => {
           {info}
         </p>
 
-
- {/* <button onClick={handleClick}
+        {/* <button onClick={handleClick}
             style={{
               background: "var(--color-pprimary)",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)"
@@ -89,15 +89,15 @@ const WhyUs = ({ numbers, info, learnMore }) => {
                               opacity-0 hover:opacity-100 transition-opacity duration-300
                               -translate-x-full group-hover:translate-x-full"></span>
             </span>
-          </button> 
-           */}
+          </button>  */}
+          
 
-
-        <button onClick={handleClick}
+        <Button onClick={handleClick} background={"white"} text={"Learn More"} style={"border-2 cursor-pointer border-blue-700 text-blue-800 hover:bg-blue-700 hover:text-white rounded-full p-2 mt-10 transition-all duration-300"}/>
+        {/* <button onClick={handleClick}
           className="border-2 cursor-pointer border-blue-700 text-blue-800 hover:bg-blue-700 hover:text-white rounded-full p-2 mt-10 transition-all duration-300"
         >
-          {learnMore}
-        </button>
+          learn more
+        </button> */}
       </div>
     </>
   );

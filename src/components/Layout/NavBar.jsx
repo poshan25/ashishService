@@ -38,95 +38,15 @@ const isHome = location .pathname === "/"
   }, [lastScrollY, menuOpen]);
 
   return (
-    // <nav
-    //   className={`fixed top-0 left-0 w-full z-50 transform transition-transform duration-300 ${
-    //     showNavbar ? 'translate-y-0' : '-translate-y-full'
-    //   } ${isAboutUs ? 'bg-white text-black' : 'backdrop-blur-md'}`}
-    // >
-    //   <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-    //     <img src="images/overlap.png" className='w-[70px]' alt="overlapImg" />
+   
+<nav
+      className={`fixed  mx-auto bg-[#f6f6f6] top-0 left-0 w-full z-50 transform shadow-[0_9px_12px_rgba(0,0,0,0.2)]  transition-transform duration-300 ${
+        showNavbar ? 'translate-y-0' : '-translate-y-full'
+      }`}
+    >
 
-    //     {/* Desktop menu with dynamic text color */}
-    //     <div className="hidden md:flex gap-10">
-    //       <NavLinks textColor={isAboutUs ? "text-gray-500" : "text-white"} />
-    //     </div>
 
-    //     {/* Hamburger button */}
-    //     <button onClick={toggleMenu} className={isAboutUs ? "text-gray-500 md:hidden" : "text-white md:hidden"}>
-    //       {menuOpen ? <X size={28} /> : <Menu size={28} />}
-    //     </button>
-    //   </div>
-
-    //   {/* Mobile menu */}
-    //   {menuOpen && (
-    //     <div style={{ background: "var(--color-navOpen)" }} className="md:hidden px-4 pb-6 pt-4">
-    //       <div className="flex flex-col gap-6 mt-4">
-    //         <NavLinks textColor={isAboutUs ? "text-gray-500" : "[color:var(--color-navText)]"} />
-    //       </div>
-    //     </div>
-    //   )}
-    // </nav>
-//     <nav
-//   className={`fixed top-0 left-0 w-full z-50 transform transition-transform duration-300 ${
-//     showNavbar ? 'translate-y-0' : '-translate-y-full'
-//   } ${isAboutUs ? 'bg-white text-black' : 'backdrop-blur-md text-white'}`}
-// >
-//   <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-//     <img src="images/overlap.png" className='w-[70px]' alt="overlapImg" />
-
-//     {/* Desktop menu with correct text color */}
-//     <div className="hidden md:flex gap-10">
-//       <NavLinks textColor={isAboutUs ? "text-black" : "text-white"} />
-//     </div>
-
-//     {/* Hamburger button with correct text color */}
-//     <button onClick={toggleMenu} className={`${isAboutUs ? "text-black" : "text-white"} md:hidden`}>
-//       {menuOpen ? <X size={28} /> : <Menu size={28} />}
-//     </button>
-//   </div>
-
-//   {/* Mobile menu */}
-//   {menuOpen && (
-//     <div style={{ background: "var(--color-navOpen)" }} className="md:hidden px-4 pb-6 pt-4">
-//       <div className="flex flex-col gap-6 mt-4">
-//         <NavLinks textColor={isAboutUs ? "text-black" : "text-white"} />
-//       </div>
-//     </div>
-//   )}
-// </nav>
-//  <nav
-//   className={`fixed top-0 left-0 w-full z-50 transform transition-transform duration-300 ${
-//     showNavbar ? 'translate-y-0' : '-translate-y-full'
-//   } ${isAboutUs ? 'bg-white text-black' : 'bg-[#0a1733] text-white'}`}
-// >
-//   <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-//     <img src="images/overlap.png" className='w-[70px]' alt="overlapImg" />
-
-//     <div className="hidden md:flex gap-10">
-//       <NavLinks textColor={isAboutUs ? "text-black" : "text-white"} />
-//     </div>
-
-//     <button onClick={toggleMenu} className={`${isAboutUs ? "text-black" : "text-white"} md:hidden`}>
-//       {menuOpen ? <X size={28} /> : <Menu size={28} />}
-//     </button>
-//   </div>
-
-//   {menuOpen && (
-//     <div style={{ background: isAboutUs ? "white" : "#0a1733" }} className="md:hidden px-4 pb-6 pt-4">
-//       <div className="flex flex-col gap-6 mt-4">
-//         <NavLinks textColor={isAboutUs ? "text-black" : "text-white"} />
-//       </div>
-//     </div>
-//   )}
-// </nav> 
-
- <nav
-  className={`fixed bg-[#f6f6f6] top-0 left-0 w-full z-50 transform transition-transform duration-300 ${
-    showNavbar ? 'translate-y-0' : '-translate-y-full'
-  } `}
-  // ${isAboutUs ? 'bg-white text-black' :isHome ? 'bg-[#382b24]' :  'bg-[#0a1733] text-white'  }`}
->
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-[1200px] mx-auto px-6 py-2 flex items-center  justify-between">
         <Link to='/'>
           <img src="images/overlap.png" className='w-[70px]' alt="overlapImg" />
         </Link>
@@ -135,9 +55,7 @@ const isHome = location .pathname === "/"
         <div className="hidden md:flex gap-10">
           <NavLinks
             textColor={
-              isAboutUs ? "text-black" :
-              isHome ? "text-white" :
-              "text-white"
+              "text-black"
             }
           />
         </div>
@@ -145,7 +63,7 @@ const isHome = location .pathname === "/"
         {/* Hamburger button with correct text color */}
         <button
           onClick={toggleMenu}
-          className={`${isAboutUs ? "text-black" : "text-white"} md:hidden`}
+          className={`${isAboutUs ? "text-black" : "text-black"} md:hidden`}
         >
           {menuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -159,12 +77,12 @@ const isHome = location .pathname === "/"
           }}
           className="md:hidden px-4 pb-6 pt-4"
         >
-          <div className="flex flex-col gap-6 mt-4">
+          <div className="flex  flex-col gap-6 mt-4">
             <NavLinks
               textColor={
                 isAboutUs ? "text-black" :
-                isHome ? "text-white" :
-                "text-white"
+                isHome ? "text-black" :
+                "text-black"
               }
             />
           </div>
