@@ -97,26 +97,6 @@ import Account from "./components/pages/Account";
 import { BeatLoader } from "react-spinners";
 
 const HomePage = () => {
-  // const [loading, setLoading] = useState(true);
-
-  // useEffect(() => {
-  //   fetch('https://jsonplaceholder.typicode.com/users')
-  //     .then(res => res.json())
-  //     .then(() => {
-  //       setLoading(false);
-  //     })
-  //     .catch(() => {
-  //       setLoading(false);
-  //     });
-  // }, []);
-
-  // if (loading) {
-  //   return (
-  //     <div className="min-h-screen flex items-center justify-center">
-  //       <BeatLoader loading={true} color="black" />
-  //     </div>
-  //   );
-  // }
 
   return (
     <div className="min-h-screen">
