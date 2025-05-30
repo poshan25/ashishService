@@ -34,29 +34,6 @@ const Donate = () => {
   style="bg-[#00b8db] cursor-pointer text-white px-8 py-3 rounded-full text-lg"
 />
 
-{/* <Button text={"TAKE ACTION NOW"} style={"bg-[#00b8db] hover:bg-blue-700  cursor-pointer text-white px-8 py-3 rounded-full  transition-colors text-lg"}/> */}
-
-          {/* <button onClick={handleClick}
-            style={{
-              background: "var(--color-pprimary)",
-              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)"
-            }}
-            className="relative px-8 py-4 text-white font-bold rounded-lg cursor-pointer
-                      transform transition-all duration-300
-                      hover:scale-105 hover:shadow-lg
-                      active:scale-95 active:shadow-inner
-                      focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500
-                      min-w-[200px] text-center"
-          >
-            <span className="relative z-10">
-              Donate Now
-              </span>
-            <span className="absolute inset-0 overflow-hidden rounded-lg">
-              <span className="absolute inset-0 bg-gradient-to-r from-white/10 via-white/30 to-white/10 
-                              opacity-0 hover:opacity-100 transition-opacity duration-300
-                              -translate-x-full group-hover:translate-x-full"></span>
-            </span>
-          </button> */}
         </div>
       </div>
     </div>
