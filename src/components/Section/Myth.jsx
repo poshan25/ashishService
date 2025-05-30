@@ -59,7 +59,7 @@ const Myth = ({learnMore}) => {
     <div className="relative w-full min-h-[500px] py-12">
       {/* Background Image */}
       <img
-        src="images/whyus.jpg"
+        src="images/whyChooseUs.jpg"
         alt="img"
         className="absolute inset-0 w-full h-full object-cover z-[-2]"
       />
@@ -67,9 +67,9 @@ const Myth = ({learnMore}) => {
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50 z-[-1]" />
 
-      <div style={{ color: "var(--color-subHeading)" }} className="text-[40px] font-bold text-gray-100 mb-[50px] text-center">
-        WHY <span style={{ color: "var(--color-orange)" }}>US</span>
-        <div style={{ color: "var(--color-littleBlue)" }} className="mt-[-40px] ">______________</div>
+      <div style={{ color: "var(--color-title)" }} className="text-[50px] font-bold rounded bg-white max-w-[1100px] mx-auto mb-[50px] text-center">
+        WHY US
+        <div style={{ color: "var(--color-title2)" }} className="mt-[-57px] ">____________</div>
       </div>
 
       {/* Content */}
@@ -77,7 +77,7 @@ const Myth = ({learnMore}) => {
         {/* Three Containers */}
         <div className="grid font-bold grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
           <WhyUs   numbers={"1000+"} info={"Counseling and Information Sharing at Nepal-India Border"}  />
-          <WhyUs numbers={"500+"} info={"Trafficked Victims Rescued"} learnMore={"Learn More"}/>
+          <WhyUs numbers={"500+"} info={"Trafficked Victims Have Been Rescued"} learnMore={"Learn More"}/>
           <WhyUs numbers={"2500+"} info={"Girls Who Attended Safe Home & Training Centers."} learnMore={"Learn More"}/>
 
           
@@ -86,5 +86,6 @@ const Myth = ({learnMore}) => {
     </div>
   );
 };
+
 
 export default Myth;

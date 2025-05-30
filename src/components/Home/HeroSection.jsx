@@ -100,7 +100,7 @@ const HeroSection = () => {
           Relief Act.
         </p>
 
-<Button text={"TAKE ACTION NOW"} style={"bg-[#00b8db] hover:bg-blue-700  cursor-pointer text-white px-8 py-3 rounded-full  transition-colors text-lg"}/>
+<Button text={"TAKE ACTION NOW"} style={"bg-[#00b8db]  cursor-pointer text-white px-8 py-3 rounded-full  transition-all text-lg"}/>
         {/* <button
           onMouseEnter={(e) =>
             (e.currentTarget.style.backgroundColor = "var(--color-hover)")

@@ -1,5 +1,6 @@
 import React from "react";
 import MapEmbed from "../Section/MapEmbeed";
+import Button from "./Button";
 
 const Footer = () => {
   return (
@@ -58,18 +59,20 @@ const Footer = () => {
 
         <div>
           <h3 className="font-semibold text-lg mb-4">Subscribe Us</h3>
-          <div className="flex max-w-xs">
+          <div className="flex max-w-xs ">
             <input
               type="email"
               placeholder="Email Address"
               className="px-4 py-2 border placeholder-gray-200 border-gray-300 rounded-l-md focus:outline-none focus:ring-1 focus:ring-cyan-500 text-white bg-transparent flex-grow"
             />
-            <button
+            {/* <button
               style={{ background: "var(--color-pprimary)" }}
               className="cursor-pointer text-white px-4 py-2 rounded-r-md hover:opacity-90 transition-opacity"
             >
               SIGN UP
-            </button>
+            </button> */}
+                              <Button  text={"SIGN UP"}  style={"bg-[#00b8db] cursor-pointer hover:bg-blue-400 text-white px-3 py-1 text-sm"} />
+
           </div>
         </div>
       </div>

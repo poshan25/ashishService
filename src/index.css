@@ -161,9 +161,12 @@ Footer text and secondary navigation links.
 Disabled button states or inactive elements. */
 
 
+
+
+
 /* why usbg */
 
-  --color-whyus: #0a1733;
+  --color-whyUs: #0a1733;
 
   /* ourwork bg */
 
@@ -197,8 +200,12 @@ Disabled button states or inactive elements. */
 
 
 
+
   /* naya color haru jun final colors ho */
 
+
+  /* white text */
+  --color-whitish: #f6f6f6;
 
   /* button colors */
 --color-btnColor: #00b8db;
@@ -208,18 +215,29 @@ Disabled button states or inactive elements. */
     --color-number: #ff6900;
 
     /* title colors like : Ourwork, about etc*/
-    --color-title: #1447e6;
+    /* --color-title: #1447e6; */
     --color-titleUnderline: #00b8db;
+    
+        --color-title: #0b9efa;
 
+
+    --color-title2: #00b8db;
 
     /* subheading color */
     
-    --color-subHeading: #1447e6;
+    /* --color-subHeading: #1447e6; */
+    /* --color-subHeading: #0b9efa; */
+    --color-subHeading: #1d1d1d;
+
+
 
 
      /* font color */
      --color-titleFont: #495159;
      --color-subTitleFont: #1a1a1a;
+     --color-lotusFont: #2c2c2c;
+
+          /* --color-subTitleFont: #0b93fa; */
 
 
      /* footer font */

@@ -41,11 +41,11 @@ const Worldwide = () => {
         /> */}
 
       {/* Content */}
-      <div className="pt-[100px]"> {/* Add padding to push content down */}
-        <p  style={{ color: "var(--color-darkishBlue)" }} className="text-[clamp(2.5rem,6vw,5.5rem)] font-bold leading-tight ">
-          <span className="text-orange-600">28</span> MILLION PEOPLE
+      <div className="pt-[100px] pb-[50px]"> {/* Add padding to push content down */}
+        <p  style={{ color: "var(--color-title)" }} className="text-[clamp(2.5rem,6vw,5.5rem)] font-bold leading-tight ">
+          <span style={{ color: "var(--color-number)" }}  >28</span> MILLION PEOPLE
         </p>
-        <p  style={{ color: "var(--color-darkishBlue)" }}  className="text-[clamp(1.5rem,4vw,2.5rem)] font-semibold mt-4 mb-6 text-[#04236b]">
+        <p  style={{ color: "var(--color-title)" }}  className="text-[clamp(1.5rem,4vw,2.5rem)] font-semibold mt-4 mb-6 text-[#04236b]">
           ARE TRAFFICKED WORLDWIDE
         </p>
         <p style={{ color: "var(--color-text)" }}   className="text-xl max-w-xl mx-auto">

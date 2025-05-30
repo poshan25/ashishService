@@ -128,13 +128,13 @@ const ContactPage = () => {
         {/* Page Heading */}
         <div className="mb-12 text-center relative">
           <h1
-            style={{ color: "var(--color-pprimary)" }}
+            style={{ color: "var(--color-title)" }}
             className="text-4xl md:text-5xl font-bold inline-block relative"
           >
             Contact Us
           </h1>
           <div
-            style={{ backgroundColor: "var(--color-ssecondary)" }}
+            style={{ backgroundColor: "var(--color-titleUnderline)" }}
             className="h-1 w-70 mt-2 mx-auto"
           ></div>
         </div>
