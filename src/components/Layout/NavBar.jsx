@@ -117,6 +117,17 @@ const NavLinks = ({ textColor }) => (
     >
       Our Work
     </Link>
+
+<Link
+      to="/career"
+      className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+    >
+      Career
+    </Link>
+
+
+
+
     <Link
       to="/account"
       className={`${textColor} hover:text-cyan-500 font-semibold transition`}

@@ -13,6 +13,7 @@ import ContactUs from "./components/Section/ContactUs.jsx";
 import Notfound from "./components/Section/Notfound.jsx";
 import AccountPage from "./components/pages/Account.jsx";
 import OurWork from "./components/pages/OurWork.jsx";
+import Career from "./components/Section/Career.jsx";
 // import OurWork from "./components/pages/OurWork.jsx";
 // import Dashboard from "./components/Section/DashboardItems.jsx";
 
@@ -56,6 +57,7 @@ const router = createBrowserRouter([
       { path: "", element: <App /> }, // ✅ this will show at "/"
       { path: "aboutus", element: <Aboutus /> },
       { path: "recentactivities", element: <RecentActivities /> },
+      { path: "career", element: <Career /> },
       { path: "ourwork", element: <OurWork /> },
       { path: "donate", element: <Donate /> },
       { path: "contact-us", element: <ContactUs /> },
