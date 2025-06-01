@@ -17,6 +17,7 @@ const jobs = [
   },
 ];
 
+
 const Career = () => {
   return (
     <main>
