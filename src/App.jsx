@@ -95,14 +95,20 @@ import Popup from "./components/Section/Popup";
 import Donate from "./components/Section/Donate";
 import Account from "./components/pages/Account";
 import { BeatLoader } from "react-spinners";
+import MultiLanguage from "./components/Section/MultiLanguage";
 
 const HomePage = () => {
 
   return (
     <div className="min-h-screen">
-      <Popup />
+
+
+      {/* <Popup /> */}
+      
       <NavBar />
       <HeroSection />
+            <MultiLanguage/>
+
       <Worldwide />
       <Myth />
       <Work />

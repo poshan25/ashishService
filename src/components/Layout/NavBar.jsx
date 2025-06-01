@@ -126,7 +126,12 @@ const NavLinks = ({ textColor }) => (
     </Link>
 
 
-
+<Link
+      to="/volunteer"
+      className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+    >
+      Volunteer
+    </Link>
 
     <Link
       to="/account"

@@ -1,72 +1,75 @@
 import React from "react";
 
-const jobs = [
+const volunteerRoles = [
   {
-    title: "Social Worker",
-    type: "Full Time",
+    title: "Community Outreach Volunteer",
+    type: "Field Work",
     location: "Butwal",
-    description:
-      "Help with outreach, awareness, and victim support in the field.",
+    description: "Help with awareness campaigns, community education, and victim support in the field.",
     applyLink: "mailto:assn2063@gmail.com",
   },
   {
-    title: "Content Writer",
-    type: "Part Time",
-    location: "Remote",
-    description: "Create blogs, newsletters, and stories of survivors.",
+    title: "Digital Content Volunteer",
+    type: "Remote",
+    location: "Online",
+    description: "Assist with creating social media content, blogs, and survivor stories.",
+    applyLink: "mailto:assn2063@gmail.com",
+  },
+  {
+    title: "Fundraising Volunteer",
+    type: "Flexible",
+    location: "Hybrid",
+    description: "Help organize fundraising events and donor outreach programs.",
     applyLink: "mailto:assn2063@gmail.com",
   },
 ];
 
-const Career = () => {
+const Volunteer = () => {
   return (
     <main className="bg-gray-50">
       {/* Hero Section */}
-      <section className="py-20  text-white mt-10">
+      <section className="py-20 text-white mt-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex gap-4 p-4  items-center justify-center">
+          <div className="flex gap-4 p-4 items-center justify-center">
             <img
               className="max-w-[50px]"
               src="images/logolotus.png"
               alt="lotus logo"
             />
-
             <h1
               style={{ color: "var(--color-subHeading)" }}
-              className="text-4xl md:text-5xl font-bold "
+              className="text-4xl md:text-5xl font-bold"
             >
-              Join Our Mission
+              Become a Volunteer
             </h1>
           </div>
-
           <p
             style={{ color: "var(--color-lotusFont)" }}
             className="leading-tight text-[18px] max-w-3xl mx-auto"
           >
-            Be a part of our journey to combat human trafficking and empower
-            communities.
+            Join our team of dedicated volunteers working to end human trafficking and support survivors.
           </p>
         </div>
       </section>
 
-      {/* Job Listings */}
+      {/* Volunteer Opportunities */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
-          <div
+          <div 
             style={{ color: "var(--color-title)" }}
-            className="text-center text-[40px]  font-bold mb-10"
+            className="text-center text-[40px] font-bold mb-10"
           >
-            Current Openings
+            Volunteer Opportunities
             <div
               style={{ color: "var(--color-title2)" }}
-              className="mt-[-50px] "
+              className="mt-[-50px]"
             >
               _______________________
             </div>
           </div>
 
           <div className="space-y-6">
-            {jobs.map((job, index) => (
+            {volunteerRoles.map((role, index) => (
               <div
                 key={index}
                 className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4"
@@ -78,11 +81,17 @@ const Career = () => {
                       className="text-2xl font-bold"
                       style={{ color: "var(--color-title)" }}
                     >
-                      {job.title}
+                      {role.title}
                     </h3>
                     <div className="flex items-center mt-2 space-x-4">
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
-                        {job.type}
+                      <span 
+                        className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium"
+                        style={{ 
+                          backgroundColor: "var(--color-btnColor)",
+                          color: "white"
+                        }}
+                      >
+                        {role.type}
                       </span>
                       <span className="text-gray-600">
                         <svg
@@ -105,12 +114,12 @@ const Career = () => {
                             d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                           />
                         </svg>
-                        {job.location}
+                        {role.location}
                       </span>
                     </div>
                   </div>
                   <a
-                    href={job.applyLink}
+                    href={role.applyLink}
                     className="inline-flex items-center px-6 py-3 rounded-md font-medium transition-colors duration-200"
                     style={{
                       backgroundColor: "var(--color-btnColor)",
@@ -119,7 +128,7 @@ const Career = () => {
                     onMouseEnter={(e) => (e.target.style.opacity = "0.9")}
                     onMouseLeave={(e) => (e.target.style.opacity = "1")}
                   >
-                    Apply Now
+                    Join Us
                     <svg
                       className="w-4 h-4 ml-2"
                       fill="none"
@@ -137,7 +146,7 @@ const Career = () => {
                   </a>
                 </div>
                 <p className="mt-4 text-gray-700 leading-relaxed">
-                  {job.description}
+                  {role.description}
                 </p>
               </div>
             ))}
@@ -145,29 +154,70 @@ const Career = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Volunteer Benefits */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <h2
+            className="text-3xl font-bold text-center mb-12"
+            style={{ color: "var(--color-title)" }}
+          >
+            Why Volunteer With Us?
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                icon: "👐",
+                title: "Make an Impact",
+                description: "Directly contribute to ending human trafficking and supporting survivors."
+              },
+              {
+                icon: "🌟",
+                title: "Grow Skills",
+                description: "Develop valuable experience in social work, advocacy, and community organizing."
+              },
+              {
+                icon: "💞",
+                title: "Join a Community",
+                description: "Connect with like-minded individuals passionate about social justice."
+              }
+            ].map((benefit, index) => (
+              <div 
+                key={index} 
+                className="bg-gray-50 p-6 rounded-lg text-center"
+              >
+                <div className="text-4xl mb-4">{benefit.icon}</div>
+                <h3 
+                  className="text-xl font-semibold mb-2"
+                  style={{ color: "var(--color-title)" }}
+                >
+                  {benefit.title}
+                </h3>
+                <p className="text-gray-600">{benefit.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-gray-50 p-8 md:p-10 rounded-xl shadow-inner">
+          <div className="bg-white p-8 md:p-10 rounded-xl shadow-inner">
             <h3
               className="text-2xl md:text-3xl font-bold mb-4"
               style={{ color: "var(--color-title)" }}
             >
-              Don't see a suitable position?
+              Ready to make a difference?
             </h3>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              We're always looking for passionate individuals. Send us your
-              resume, and we'll get in touch when a matching opportunity arises.
+              Even if you don't see the perfect role, we'd love to hear how you'd like to contribute.
             </p>
             <a
               href="mailto:assn2063@gmail.com"
               className="inline-flex items-center px-8 py-3 rounded-md text-lg font-medium text-white transition-colors duration-200 hover:opacity-90"
-             style={{
-                      background: "var(--color-btnColor)",
-                      color: "white",
-                    }}
+              style={{ backgroundColor: "var(--color-title)" }}
             >
-              Send Your Resume
+              Contact Us
               <svg
                 className="w-5 h-5 ml-2"
                 fill="none"
@@ -190,4 +240,4 @@ const Career = () => {
   );
 };
 
-export default Career;
+export default Volunteer;
