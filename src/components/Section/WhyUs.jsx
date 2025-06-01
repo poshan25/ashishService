@@ -93,7 +93,7 @@ const WhyUs = ({ numbers, info, text, background }) => {
           
           
 
-        <Button  onClick={handleClick}   text={"Learn More"}  style="bg-[#00b8db] mt-8 cursor-pointer text-white px-5 py-2 rounded-full text-xl"/>
+        <Button  onClick={handleClick}   text={"Learn More"}  styling="bg-[#00b8db] mt-8 cursor-pointer text-white px-5 py-2 rounded-full text-xl"/>
         {/* <button onClick={handleClick}
           className="border-2 cursor-pointer border-blue-700 text-blue-800 hover:bg-blue-700 hover:text-white rounded-full p-2 mt-10 transition-all duration-300"
         >

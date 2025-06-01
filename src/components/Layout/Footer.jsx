@@ -71,7 +71,7 @@ const Footer = () => {
             >
               SIGN UP
             </button> */}
-                              <Button  text={"SIGN UP"}  style={"bg-[#00b8db] cursor-pointer hover:bg-blue-400 text-white px-3 py-1 text-sm"} />
+                              <Button  text={"SIGN UP"}  styling={"bg-[#00b8db] cursor-pointer hover:bg-blue-400 text-white px-3 py-1 text-sm"} />
 
           </div>
         </div>

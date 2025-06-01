@@ -13,7 +13,7 @@ const OurWork = () => {
         style={{ color: "var(--color-pprimary)" }}
         className="text-center text-[40px] font-bold mt-15"
       >
-        OUR WORK
+        OUR WORK 
         <div
           style={{ color: "var(--color-ssecondary)" }}
           className="mt-[-50px] "
