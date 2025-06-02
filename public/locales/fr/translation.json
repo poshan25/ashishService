@@ -1,7 +1,84 @@
 {
-                    "greeting": "Bonjour, bienvenue!",
-                    "description": {
-                        "line1": "Vous regardez le serveur en direct",
-                        "line2": "Aujourd'hui, c'est dimanche"
-                    }
-                }
+  "hero": {
+    "campaign": "UNE CAMPAGNE POUR METTRE FIN À LA TRAITE DES ÊTRES HUMAINS",
+    "organization": "ASHISH SOCIAL SERVICE NEPAL",
+    "description": "Les survivants ne devraient pas avoir à porter le fardeau des casiers judiciaires découlant de leur exploitation. Soutenez la loi sur l’aide aux survivants de la traite.",
+    "actionButton": "AGISSEZ MAINTENANT"
+  },
+  "worldwide": {
+    "millionPeople": "MILLIONS DE PERSONNES",
+    "traffickedWorldwide": "SONT TRAFICQUÉES DANS LE MONDE",
+    "description": "Nous ne pouvons pas y mettre fin une personne, un survivant à la fois. Mais avec votre aide, nous pouvons cibler les systèmes qui rendent la traite possible."
+  },
+  "whyUs": {
+    "title": "POURQUOI NOUS",
+    "underline": "____________",
+    "stats": [
+      {
+        "number": "1000+",
+        "text": "Conseil et partage d'informations à la frontière Népal-Inde",
+        "learnMore": "En savoir plus"
+      },
+      {
+        "number": "500+",
+        "text": "Victimes de la traite secourues",
+        "learnMore": "En savoir plus"
+      },
+      {
+        "number": "2500+",
+        "text": "Filles ayant fréquenté des maisons sûres et centres de formation",
+        "learnMore": "En savoir plus"
+      }
+    ]
+  },
+  "ourWork": {
+    "title": "NOTRE TRAVAIL",
+    "underline": "______________",
+    "sections": [
+      {
+        "type": "one",
+        "title": "EMPOWERMENT",
+        "description": "ASSN aide les filles secourues à guérir émotionnellement, à apprendre leurs droits humains, et à développer leurs compétences en leadership. Ils offrent aussi une formation professionnelle comme la couture, la broderie et l’artisanat pour les rendre indépendantes. Les équipes finance et administration soutiennent ces programmes.",
+        "image": "/images/womenEmpowermentjpg.jpg"
+      },
+      {
+        "type": "two",
+        "title": "PROTECTION",
+        "description": "ASSN fournit des abris d'urgence près des postes frontières pour les filles secourues, offrant soin et conseil. Elles peuvent retourner chez elles si c’est sûr ou rester dans des maisons sûres pour des formations en compétences et développement personnel.",
+        "image": "/images/womenProtection.jpg"
+      },
+      {
+        "type": "one",
+        "title": "PRÉVENTION",
+        "description": "ASSN gère des postes frontières pour arrêter la traite en identifiant les filles à risque et en offrant de l’aide avant qu’il ne soit trop tard. Ils sensibilisent aussi via des pièces de théâtre, des programmes scolaires et des événements communautaires.",
+        "image": "/images/prevent.png"
+      },
+      {
+        "type": "two",
+        "title": "RÉHABILITATION & RÉINTÉGRATION",
+        "description": "Pour préparer les filles à retourner dans la communauté, elles ont l'opportunité de devenir autonomes grâce à notre programme de microfinance et en démarrant leur propre petite entreprise.",
+        "image": "/images/rehab.jpg"
+      }
+    ]
+  },
+  "donate": {
+    "titleLine1": "Même un petit geste de gentillesse peut mener à un grand changement.",
+    "titleLine2": "Soutenez notre mission pour mettre fin à la traite des êtres humains.",
+    "btnText": "Faire un don"
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "explore": "EXPLORER",
+    "subscribeUs": "Abonnez-vous",
+    "addressLine1": "Rupendehi, Butwal",
+    "addressLine2": "9857055535, 9807209805,",
+    "addressLine3": "assn2063@gmail.com",
+    "signUp": "S'INSCRIRE",
+    "home": "Accueil",
+    "recentActivities": "Activités récentes",
+    "aboutUs": "À propos",
+    "contactUs": "Contactez-nous",
+    "poweredBy": "Propulsé par Ashish Social Service Nepal | 2025",
+    "copyright": "© 2025 Pixpoint Solutions Pvt. Ltd. Tous droits réservés."
+  }
+}

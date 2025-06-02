@@ -1,7 +1,84 @@
 {
-"greeting": "Hello, Welcome!",
-"description": {
-    "line1": "you are viewing live server",
-    "line2": "today is sunday"
+  "hero": {
+    "campaign": "A CAMPAIGN TO END HUMAN TRAFFICKING",
+    "organization": "ASHISH SOCIAL SERVICE NEPAL",
+    "description": "Survivors should not have to carry the burden of criminal records stemming from their exploitation. Support the Trafficking Survivors Relief Act.",
+    "actionButton": "TAKE ACTION NOW"
+  },
+  "worldwide": {
+    "millionPeople": "MILLION PEOPLE",
+    "traffickedWorldwide": "ARE TRAFFICKED WORLDWIDE",
+    "description": "We cannot end this one person, one survivor at a time. But with your help, we can target the systems that make human trafficking possible."
+  },
+  "whyUs": {
+    "title": "WHY US",
+    "underline": "____________",
+    "stats": [
+      {
+        "number": "1000+",
+        "text": "Counseling and Information Sharing at Nepal-India Border",
+        "learnMore": "Learn More"
+      },
+      {
+        "number": "500+",
+        "text": "Trafficked Victims Have Been Rescued",
+        "learnMore": "Learn More"
+      },
+      {
+        "number": "2500+",
+        "text": "Girls Who Attended Safe Home & Training Centers",
+        "learnMore": "Learn More"
+      }
+    ]
+  },
+  "ourWork": {
+    "title": "OUR WORK",
+    "underline": "______________",
+    "sections": [
+      {
+        "type": "one",
+        "title": "EMPOWERMENT",
+        "description": "ASSN helps rescued girls heal emotionally, learn about human rights, and build leadership skills. They also offer job training like sewing, embroidery, and craft-making to help them become independent. Finance and admin teams support these programs.",
+        "image": "/images/womenEmpowermentjpg.jpg"
+      },
+      {
+        "type": "two",
+        "title": "PROTECTION",
+        "description": "ASSN provides Emergency Shelter Homes near border booths for rescued girls, offering care and counselling. They can return home if safe or stay in Safe Houses for skill and personal development training.",
+        "image": "/images/womenProtection.jpg"
+      },
+      {
+        "type": "one",
+        "title": "PREVENTION",
+        "description": "ASSN runs border booths to stop trafficking by identifying at-risk girls and offering help before it's too late. They also raise awareness through dramas, school programs, and community events to educate people about trafficking.",
+        "image": "/images/prevent.png"
+      },
+      {
+        "type": "two",
+        "title": "REHABILITATION & REINTEGRATION",
+        "description": "To prepare girls for their return to the community, they are given the opportunity to become self-sufficient by being part of our micro finance scheme and starting their own small business.",
+        "image": "/images/rehab.jpg"
+      }
+    ]
+  },
+  "donate": {
+    "titleLine1": "Even a small act of kindness can lead to a big change.",
+    "titleLine2": "Support our mission to end human trafficking.",
+    "btnText": "Donate Now"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "explore": "EXPLORE",
+    "subscribeUs": "Subscribe Us",
+    "addressLine1": "Rupendehi, Butwal",
+    "addressLine2": "9857055535, 9807209805,",
+    "addressLine3": "assn2063@gmail.com",
+    "signUp": "SIGN UP",
+    "home": "Home",
+    "recentActivities": "Recent Activities",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "poweredBy": "Powered by Ashish Social Service Nepal | 2025",
+    "copyright": "© 2025 Pixpoint Solutions Pvt. Ltd. All rights reserved."
   }
 }

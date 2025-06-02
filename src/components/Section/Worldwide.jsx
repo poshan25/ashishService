@@ -90,10 +90,67 @@
 
 
 
+// import React from "react";
+// import { motion } from "framer-motion";
+
+// const Worldwide = () => {
+//   return (
+//     <div className="p-15 relative mx-auto text-center mb-15">
+//       <div className="pt-[100px] pb-[50px]">
+//         <motion.p
+//           initial={{ y: 100, opacity: 0 }}
+//           whileInView={{ y: 0, opacity: 1 }}
+//           transition={{ duration: 0.8, ease: "easeOut" }}
+//           viewport={{ once: true, amount: 0.5 }}
+//           style={{ color: "var(--color-title)" }}
+//           className="text-[clamp(2.5rem,6vw,5.5rem)] font-bold leading-tight"
+//         >
+//           <span style={{ color: "var(--color-number)" }}>28</span> MILLION PEOPLE
+//         </motion.p>
+
+//         <motion.p
+//           initial={{ y: 100, opacity: 0 }}
+//           whileInView={{ y: 0, opacity: 1 }}
+//           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+//           viewport={{ once: true, amount: 0.5 }}
+//           style={{ color: "var(--color-title)" }}
+//           className="text-[clamp(1.5rem,4vw,2.5rem)] font-semibold mt-4 mb-6 text-[#04236b]"
+//         >
+//           ARE TRAFFICKED WORLDWIDE
+//         </motion.p>
+
+//         <motion.p
+//           initial={{ y: 100, opacity: 0 }}
+//           whileInView={{ y: 0, opacity: 1 }}
+//           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+//           viewport={{ once: true, amount: 0.5 }}
+//           style={{ color: "var(--color-text)" }}
+//           className="text-xl max-w-xl mx-auto"
+//         >
+//           We cannot end this one person, one survivor at a time. But with your
+//           help, we can target the systems that make human trafficking possible.
+//         </motion.p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Worldwide;
+
+
+
+
+
+
+
+
 import React from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const Worldwide = () => {
+  const { t } = useTranslation();
+  
   return (
     <div className="p-15 relative mx-auto text-center mb-15">
       <div className="pt-[100px] pb-[50px]">
@@ -105,7 +162,7 @@ const Worldwide = () => {
           style={{ color: "var(--color-title)" }}
           className="text-[clamp(2.5rem,6vw,5.5rem)] font-bold leading-tight"
         >
-          <span style={{ color: "var(--color-number)" }}>28</span> MILLION PEOPLE
+          <span style={{ color: "var(--color-number)" }}>28</span> {t("worldwide.millionPeople")}
         </motion.p>
 
         <motion.p
@@ -116,7 +173,7 @@ const Worldwide = () => {
           style={{ color: "var(--color-title)" }}
           className="text-[clamp(1.5rem,4vw,2.5rem)] font-semibold mt-4 mb-6 text-[#04236b]"
         >
-          ARE TRAFFICKED WORLDWIDE
+          {t("worldwide.traffickedWorldwide")}
         </motion.p>
 
         <motion.p
@@ -127,8 +184,7 @@ const Worldwide = () => {
           style={{ color: "var(--color-text)" }}
           className="text-xl max-w-xl mx-auto"
         >
-          We cannot end this one person, one survivor at a time. But with your
-          help, we can target the systems that make human trafficking possible.
+          {t("worldwide.description")}
         </motion.p>
       </div>
     </div>

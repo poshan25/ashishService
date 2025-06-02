@@ -95,7 +95,7 @@ import Popup from "./components/Section/Popup";
 import Donate from "./components/Section/Donate";
 import Account from "./components/pages/Account";
 import { BeatLoader } from "react-spinners";
-import MultiLanguage from "./components/Section/MultiLanguage";
+// import MultiLanguage from "./components/Section/MultiLanguage";
 
 const HomePage = () => {
 
@@ -107,7 +107,7 @@ const HomePage = () => {
       
       <NavBar />
       <HeroSection />
-            <MultiLanguage/>
+            {/* <MultiLanguage/> */}
 
       <Worldwide />
       <Myth />
