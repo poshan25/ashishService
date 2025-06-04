@@ -35,7 +35,7 @@ const Donate = () => {
         <div className="flex justify-center mt-8">
           {/* <Button onClick={handleClick}  text={"Donate Now"}  style={"bg-[#00b8db]  cursor-pointer text-white px-8 py-3 rounded-full  transition-all text-lg"}/> */}
           <Button
-            // onClick={handleClick}
+            onClick={handleClick}
             text={t("donate.btnText")}
             // text="Donate Now"
             styling="bg-[#00b8db] cursor-pointer text-white px-8 py-3 rounded-full text-lg"
