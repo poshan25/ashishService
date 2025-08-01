@@ -1,42 +1,4 @@
-// import React from "react";
 
-import { ClipboardCheck } from "lucide-react"
-
-// const MapEmbed = () => {
-//   return (
-//     <div className="map-container relative w-full max-w-2xl mx-auto">
-//       {/* Transparent link layer */}
-//       <a
-//         href="https://www.google.com/maps/place/Paras+Buspark+Police+Station/@27.6605379,84.4359816,15z"
-//         target="_blank"
-//         rel="noopener noreferrer"
-//         className="absolute top-0 left-0 w-full h-full z-10"
-//       >
-//         {/* This empty anchor makes the map clickable */}
-//       </a>
-
-//       {/* The iframe map */}
-//       <iframe
-//         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6736.046579615865!2d84.43598160435945!3d27.660537869203935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994e52acb3e499f%3A0x7819ba4c0d56fbc1!2sParas%20Buspark%20Police%20Station!5e1!3m2!1sen!2snp!4v1748343824079!5m2!1sen!2snp"
-//         width="100%"
-//         height="450"
-//         style={{ border: 0 }}
-//         allowFullScreen=""
-//         loading="lazy"
-//         referrerPolicy="no-referrer-when-downgrade"
-//         title="Paras Buspark Police Station"
-//       ></iframe>
-//     </div>
-//   );
-// };
-
-// export default MapEmbed;
-
-
-
-
-
-// with proper zoom and click
 
 
 import React from "react";
