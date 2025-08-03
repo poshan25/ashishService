@@ -2,28 +2,36 @@ import React from "react";
 
 const TheIssueSection = () => {
   return (
-    <section className="w-full bg-white py-12 px-4">
-      <div className=" mx-auto flex flex-col md:flex-row items-center ">
+    <section className="w-full  bg-white mb-20 mt-[-18px]">
+      <div className=" mx-auto  flex flex-col md:flex-row items-center ">
         {/* Left Image */}
         <div className="w-full md:w-1/3">
           <img
             src="https://static.wixstatic.com/media/cd748e_27e694fbff90402ca490898ae3196315~mv2.jpg"
             alt="Issue Left"
-            className="w-full h-[520px] object-cover rounded shadow"
+            className="w-full h-[520px] object-cover  shadow"
           />
         </div>
 
-        {/* Middle Content */}
-        <div className="w-full md:w-1/3 bg-[#24a69a] text-center">
-          <h2 className="text-[40px] md:text-[82px] font-bold text-white mb-6">
-            THE ISSUE
-          </h2>
-          <p className="text-sm md:text-base text-white bg-[#24a69a] p-4 rounded">
-            An estimated 25,000 girls and women are trafficked to India from Nepal every year.
-            <br />
-            <br />
-            Once there, they are taken captive and sold as slaves to the highest bidders from India or the Middle East.
-          </p>
+        {/* Middle Content */} 
+        
+<div className="w-full md:w-1/3 md:px-15 bg-[#24a69a] text-center flex flex-col justify-center h-full min-h-[520px]">
+  <h2 className="text-[40px] md:text-[50px] font-bold text-white mb-6">
+    THE ISSUE
+  </h2>
+  <p className="text-sm md:text-base text-white bg-[#24a69a] ">
+    An estimated 25,000 girls and women are trafficked to India from Nepal every year.
+    <br />
+    Once there, they are taken captive and sold as slaves to the highest bidders from India or the Middle East.
+  </p>
+
+
+
+
+
+
+
+
 
           {/* Button */}
           <a
