@@ -15,7 +15,7 @@
 // import { BeatLoader } from "react-spinners";
 
 // const HomePage = () => {
- 
+
 // //  const [users, setUsers] = useState([]);       // data
 //   const [loading, setLoading] = useState(true); // loading state
 
@@ -44,7 +44,6 @@
 // //   );
 // // }
 
-
 // return (
 //   <div className="min-h-screen">
 //     <BeatLoader loading={true} color="black"/>
@@ -72,16 +71,6 @@
 
 // export default HomePage;
 
-
-
-
-
-
-
-
-
-
-
 import { useState, useEffect } from "react";
 import NavBar from "./components/Layout/NavBar";
 import HeroSection from "./components/Home/HeroSection";
@@ -96,25 +85,22 @@ import Donate from "./components/Section/Donate";
 import Account from "./components/pages/Account";
 import { BeatLoader } from "react-spinners";
 import MissionSection from "./components/Section/OurMission";
+import TheIssueSection from "./components/Section/TheIssue";
 // import MultiLanguage from "./components/Section/MultiLanguage";
 
 const HomePage = () => {
-
   return (
     <div className="min-h-screen">
-
-
       {/* <Popup /> */}
-      
+
       <NavBar />
       <HeroSection />
-            {/* <MultiLanguage/> */}
+      {/* <MultiLanguage/> */}
 
       <Worldwide />
 
-<MissionSection/>
-
-
+      <MissionSection />
+      <TheIssueSection />
 
       <Myth />
       <Work />
