@@ -86,6 +86,8 @@ import Account from "./components/pages/Account";
 import { BeatLoader } from "react-spinners";
 import MissionSection from "./components/Section/OurMission";
 import TheIssueSection from "./components/Section/TheIssue";
+import OurSolution from "./components/Section/OurSolution";
+import OurImpact from "./components/Section/OurImpact";
 // import MultiLanguage from "./components/Section/MultiLanguage";
 
 const HomePage = () => {
@@ -101,6 +103,8 @@ const HomePage = () => {
 
       <MissionSection />
       <TheIssueSection />
+      <OurSolution/>
+      <OurImpact/>
 
       <Myth />
       <Work />
