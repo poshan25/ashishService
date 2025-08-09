@@ -119,11 +119,13 @@
 import React from "react";
 import MapEmbed from "./MapEmbeed";
 import Footer from "../Layout/Footer";
+import ContactForm from "./FormContactUs";
 
 const ContactPage = () => {
   return (
     <div className="pt-20">
-      <hr className="h-px bg-gray-300 border-0" />
+      {/* <hr className="h-px bg-gray-300 border-0" /> */}
+      {/* <ContactForm/> */}
       <div className="max-w-6xl mx-auto px-6 py-12 md:py-20">
         {/* Page Heading */}
         <div className="mb-12 text-center relative">
