@@ -340,6 +340,7 @@ import HeroLikeSection from "./HeroLikeSection";
 import Footer from "../Layout/Footer";
 import OurWorkOne from "../Section/OurWorkOne";
 import OurWorkTwo from "../Section/OurWorkTwo";
+import DetailedAboutUs from "./DetailedAboutUs";
 
 const Aboutus = () => {
   // Scroll to top when page loads
@@ -356,6 +357,7 @@ const Aboutus = () => {
           className="h-screen"
           text="About Us"
         />
+        <DetailedAboutUs/>
 
         {/* <div className="bg-gradient-to-r from-[#3b84b8] to-[#2c439f] text-white py-20 px-6">
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
@@ -467,7 +469,6 @@ const Aboutus = () => {
        
         </div>
 
-        <Footer />
       </div>
     </>
   );
