@@ -19,8 +19,9 @@ const Donate = () => {
     <div>
       <hr className="h-px bg-gray-300 border-0" />
       <div
-        style={{ background: "var(--color-darkBlue)" }}
-        className="mx-auto px-6 py-16"
+        // style={{ background: "var(--color-darkBlue)" }}
+        // }
+        className="mx-auto px-6 bg-white py-16"
       >
        <h1
   style={{ color: "var(--color-title2)" }}
@@ -30,9 +31,14 @@ const Donate = () => {
   {t("donate.titleLine2")}
 </h1>
 
-
+  {/* <img
+            src="images/donateImg.png"
+            alt="About us"
+            className="rounded w-40 mx-auto object-cover"
+          /> */}
         {/* Enhanced Donate Button */}
         <div className="flex justify-center mt-8">
+          
           {/* <Button onClick={handleClick}  text={"Donate Now"}  style={"bg-[#00b8db]  cursor-pointer text-white px-8 py-3 rounded-full  transition-all text-lg"}/> */}
           <Button
             onClick={handleClick}
