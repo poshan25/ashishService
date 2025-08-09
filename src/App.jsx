@@ -88,6 +88,7 @@ import MissionSection from "./components/Section/OurMission";
 import TheIssueSection from "./components/Section/TheIssue";
 import OurSolution from "./components/Section/OurSolution";
 import OurImpact from "./components/Section/OurImpact";
+import ContactForm from "./components/Section/FormContactUs";
 // import MultiLanguage from "./components/Section/MultiLanguage";
 
 const HomePage = () => {
@@ -98,7 +99,7 @@ const HomePage = () => {
       <NavBar />
       <HeroSection />
       {/* <MultiLanguage/> */}
-
+{/* <ContactForm/> */}
       <Worldwide />
 
       <MissionSection />
@@ -106,7 +107,7 @@ const HomePage = () => {
       <OurSolution/>
       <OurImpact/>
 
-      <Myth />
+      {/* <Myth /> */}
       <Work />
       <ContactPage />
       <Donate />
