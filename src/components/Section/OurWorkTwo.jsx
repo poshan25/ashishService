@@ -140,16 +140,16 @@ const OurWorkTwo = ({ title2, description2, image2 }) => {
   }, [isInView, scrollDir]);
 
   return (
-    <section className="w-full bg-[#e4f9ff] px-6 py-27" ref={ref}>
+    <section className="w-full bg-[#24a69a] px-6 " ref={ref}>
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-30">
+        <div className="flex flex-col  md:flex-row items-center justify-between gap-30">
 
           {/* Left image */}
           <motion.div
             initial={{ x: -150, opacity: 0 }}
             animate={hasAnimated ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.9 }}
-            className="max-w-[400px] md:w-1/2 h-[300px] overflow-hidden rounded-xl shadow-lg"
+            className="max-w-[400px] md:w-1/2 h-[400px] overflow-hidden rounded-xl shadow-lg"
           >
             <img
               className="w-full h-full object-cover"
@@ -163,17 +163,17 @@ const OurWorkTwo = ({ title2, description2, image2 }) => {
             initial={{ x: 150, opacity: 0 }}
             animate={hasAnimated ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.9 }}
-            className="max-w-[400px] md:w-1/2 text-gray-800 space-y-4"
+            className="max-w-[400px] py-27 md:w-1/2 text-gray-800 space-y-4"
           >
-            <img className="max-w-[50px]" src="images/logolotus.png" alt="lotus logo" />
+            <img className="text-white max-w-[50px] filter brightness-0 invert" src="images/logolotus.png" alt="lotus logo" />
             <h3
-              style={{ color: "var(--color-subHeading)" }}
+              style={{ color: "var(--color-whitish)" }}
               className="text-[44px] leading-tight pb-3 font-bold"
             >
               {title2}
             </h3>
             <p
-              style={{ color: "var(--color-lotusFont)" }}
+              style={{ color: "var(--color-whitish)" }}
               className="leading-relaxed"
             >
               {description2}

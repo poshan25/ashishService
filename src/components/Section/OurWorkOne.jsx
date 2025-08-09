@@ -3,14 +3,11 @@
 // const OurWorkOne = ({ title1, description1, image1 }) => {
 //   return (
 //     <div>
-    
 
 //       <section className="w-full px-6 py-27">
 //         <div className="max-w-6xl mx-auto">
-       
 
 //           <div className="flex flex-col md:flex-row items-center justify-between gap-30">
-           
 
 //             <div className="max-w-[400px] md:w-1/2 text-gray-800 space-y-4">
 //               <img
@@ -47,22 +44,6 @@
 
 // export default OurWorkOne;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import React from "react";
 // import { motion } from "framer-motion";
 
@@ -71,7 +52,7 @@
 //     <section className="w-full px-6 py-27">
 //       <div className="max-w-6xl mx-auto">
 //         <div className="flex flex-col md:flex-row items-center justify-between gap-30">
-          
+
 //           {/* Text from left */}
 //           <motion.div
 //             initial={{ x: -150, opacity: 0 }}
@@ -106,18 +87,6 @@
 
 // export default OurWorkOne;
 
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 
@@ -147,22 +116,31 @@ const OurWorkOne = ({ title1, description1, image1 }) => {
   }, [isInView, scrollDir]);
 
   return (
-    <section className="w-full px-6 py-27" ref={ref}>
+    <section className="w-full px-6 " ref={ref}>
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-30">
-          
           {/* Text from left */}
           <motion.div
             initial={{ x: -150, opacity: 0 }}
             animate={hasAnimated ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.9 }}
-            className="max-w-[400px] md:w-1/2 text-gray-800 space-y-4"
+            className="max-w-[400px] py-27 md:w-1/2 text-gray-800 space-y-4"
           >
-            <img className="max-w-[50px]" src="images/logolotus.png" alt="lotus logo" />
-            <h3 style={{ color: "var(--color-subHeading)" }} className="text-[46px] pb-3 font-bold">
+            <img
+              className="max-w-[50px]"
+              src="images/logolotus.png"
+              alt="lotus logo"
+            />
+            <h3
+              style={{ color: "var(--color-subHeading)" }}
+              className="text-[46px] pb-3 font-bold"
+            >
               {title1}
             </h3>
-            <p style={{ color: "var(--color-lotusFont)" }} className="text-[17px] leading-relaxed">
+            <p
+              style={{ color: "var(--color-lotusFont)" }}
+              className="text-[17px] leading-relaxed"
+            >
               {description1}
             </p>
           </motion.div>
@@ -172,11 +150,16 @@ const OurWorkOne = ({ title1, description1, image1 }) => {
             initial={{ x: 150, opacity: 0 }}
             animate={hasAnimated ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.9 }}
-            className="max-w-[400px] md:w-1/2 h-[300px] overflow-hidden rounded-xl shadow-lg"
-          >
-            <img className="w-full h-full object-cover" src={image1} alt="Work illustration" />
-          </motion.div>
+            // className="max-w-[400px]  md:w-1/2 h-[300px] overflow-hidden rounded-xl shadow-lg"
+                        className="max-w-[400px] md:w-1/2 h-[400px] overflow-hidden rounded-xl shadow-lg"
 
+          >
+            <img
+              className="w-full h-full object-cover"
+              src={image1}
+              alt="Work illustration"
+            />
+          </motion.div>
         </div>
       </div>
     </section>
