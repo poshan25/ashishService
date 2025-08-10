@@ -1,14 +1,49 @@
 import React from "react";
 // import { Link } from "lucide-react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import Footer from "../Layout/Footer";
 import NavBar from "../Layout/NavBar";
+import Button from "../Layout/Button";
 
 const AccountPage = () => {
   return (
-    <div className="min-h-screen pt-20 mt-10 bg-gray-50">
+    <div className="min-h-screen pt-11 mt-10 bg-gray-50">
       {/* Hero Section with Donation Appeal */}
-      
+
+      <div>
+        <hr className="h-px bg-gray-300 border-0" />
+
+        <div
+          className="mx-auto flex justify-center items-center h-[500px]  px-6 py-16 bg-cover bg-center relative"
+          style={{
+            backgroundImage: "url('/images/DonateImg.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+         <h1
+  className="absolute top-10 left-5 md:top-20 md:left-20 text-3xl opacity-70 md:text-4xl font-bold"
+  style={{ color: "white" }}
+>
+  Ashish Social Service Nepal (ASSN)
+</h1>
+
+
+          {/* Overlay */}
+          <div className="absolute inset-0  bg-opacity-40"></div>
+
+          {/* Content */}
+          <div className="relative z-10 text-center  text-white max-w-3xl mx-auto">
+            <h1
+              className="text-3xl md:text-6xl opacity-90 font-bold mt-50"
+              style={{ color: "white" }}
+            >
+              Where most needed
+            </h1>
+          </div>
+        </div>
+      </div>
+
       {/* Account Information Section */}
       <div className="max-w-4xl mx-auto px-6 py-12 md:py-16">
         <div className="bg-white rounded-xl shadow-md overflow-hidden">
@@ -18,9 +53,9 @@ const AccountPage = () => {
               Even small contributions create big impacts
             </h2>
             <p className="text-lg mb-6">
-              Your donation helps us rescue victims, provide shelter, and create awareness programs.
+              Your donation helps us rescue victims, provide shelter, and create
+              awareness programs.
             </p>
-            
           </div>
 
           {/* Bank Details */}
@@ -28,7 +63,7 @@ const AccountPage = () => {
             <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-6 border-b pb-4">
               Bank Transfer Information
             </h3>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <div>
@@ -40,10 +75,12 @@ const AccountPage = () => {
                   <p className="text-lg">ASSN</p>
                 </div>
               </div>
-              
+
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-gray-600">Account Number</h4>
+                  <h4 className="font-semibold text-gray-600">
+                    Account Number
+                  </h4>
                   <p className="text-lg font-mono">NBL-ASSN-125615</p>
                 </div>
                 <div>
@@ -62,16 +99,15 @@ const AccountPage = () => {
                 </div> */}
                 <div className="ml-3 ">
                   <p className="text-sm  text-green-700">
-                    Please include your name or reference in the transfer description so we can properly acknowledge your donation.
+                    Please include your name or reference in the transfer
+                    description so we can properly acknowledge your donation.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
 
       {/* footer */}
       {/* <Footer/> */}
