@@ -16,13 +16,14 @@ function OurSolution() {
         </div>
 
         {/* Grid for the four pathway steps */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-yellow-200 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  ">
           {/* Step 1: Rescue Victims */}
-          <div className="flex bg-blue-300 flex-col items-center text-center p-4 shadow-lg ">
+          <div className="flex  flex-col items-center text-center p-4 shadow-lg ">
             <div className="w-full h-64 overflow-hidden  mb-4">
               <img
                 loading="lazy"
-                src="https://static.wixstatic.com/media/cd748e_df4b2757a8fe4c3faab4fdbaf7d1f003~mv2.png/v1/fill/w_287,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Border%202.png"
+                // src="https://static.wixstatic.com/media/cd748e_df4b2757a8fe4c3faab4fdbaf7d1f003~mv2.png/v1/fill/w_287,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Border%202.png"
+                src='images/rescueVictims.png'
                 alt="Border 2"
                 className="object-cover w-full h-full"
                 onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/287x248/E98524/ffffff?text=Image+Missing"; }}
@@ -69,11 +70,12 @@ function OurSolution() {
               </svg>
             </a>
           </div> */}
-          <div className="flex bg-blue-300 flex-col items-center text-center p-4 shadow-lg ">
+          <div className="flex  flex-col items-center text-center p-4 shadow-lg ">
             <div className="w-full h-64 overflow-hidden  mb-4">
               <img
                 loading="lazy"
-                src="https://static.wixstatic.com/media/cd748e_df4b2757a8fe4c3faab4fdbaf7d1f003~mv2.png/v1/fill/w_287,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Border%202.png"
+                // src="https://static.wixstatic.com/media/cd748e_df4b2757a8fe4c3faab4fdbaf7d1f003~mv2.png/v1/fill/w_287,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Border%202.png"
+                src='images/restoreDaughters.jpg'
                 alt="Border 2"
                 className="object-cover w-full h-full"
                 onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/287x248/E98524/ffffff?text=Image+Missing"; }}
@@ -120,11 +122,12 @@ function OurSolution() {
               </svg>
             </a>
           </div> */}
-          <div className="flex bg-blue-300 flex-col items-center text-center p-4 shadow-lg ">
+          <div className="flex flex-col items-center text-center p-4 shadow-lg ">
             <div className="w-full h-64 overflow-hidden  mb-4">
               <img
                 loading="lazy"
-                src="https://static.wixstatic.com/media/cd748e_df4b2757a8fe4c3faab4fdbaf7d1f003~mv2.png/v1/fill/w_287,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Border%202.png"
+                // src="https://static.wixstatic.com/media/cd748e_df4b2757a8fe4c3faab4fdbaf7d1f003~mv2.png/v1/fill/w_287,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Border%202.png"
+                src='images/empowerLeaders.jpg'
                 alt="Border 2"
                 className="object-cover w-full h-full"
                 onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/287x248/E98524/ffffff?text=Image+Missing"; }}
@@ -171,11 +174,12 @@ function OurSolution() {
               </svg>
             </a>
           </div> */}
-          <div className="flex bg-blue-300 flex-col items-center text-center p-4 shadow-lg ">
+          <div className="flex  flex-col items-center text-center p-4 shadow-lg ">
             <div className="w-full h-64 overflow-hidden  mb-4">
               <img
                 loading="lazy"
-                src="https://static.wixstatic.com/media/cd748e_df4b2757a8fe4c3faab4fdbaf7d1f003~mv2.png/v1/fill/w_287,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Border%202.png"
+                // src="https://static.wixstatic.com/media/cd748e_df4b2757a8fe4c3faab4fdbaf7d1f003~mv2.png/v1/fill/w_287,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Border%202.png"
+                src='images/transformCommunities.jpg'
                 alt="Border 2"
                 className="object-cover w-full h-full"
                 onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/287x248/E98524/ffffff?text=Image+Missing"; }}
