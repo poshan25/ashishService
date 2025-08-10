@@ -124,7 +124,9 @@ const OurWorkOne = ({ title1, description1, image1 }) => {
             initial={{ x: -150, opacity: 0 }}
             animate={hasAnimated ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.9 }}
-            className="max-w-[400px] py-27 md:w-1/2 text-gray-800 space-y-4"
+            // className="max-w-[400px] md:py-27 pt-15  md:pt-0  md:w-1/2 text-gray-800 space-y-4"
+                        className="max-w-[400px] py-15 md:py-27 md:w-1/2 text-gray-800 space-y-4"
+
           >
             <img
               className="max-w-[50px]"
@@ -151,11 +153,12 @@ const OurWorkOne = ({ title1, description1, image1 }) => {
             animate={hasAnimated ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.9 }}
             // className="max-w-[400px]  md:w-1/2 h-[300px] overflow-hidden rounded-xl shadow-lg"
-                        className="max-w-[400px] md:w-1/2 h-[400px] overflow-hidden rounded-xl shadow-lg"
+            // className="max-w-[400px] mb-20 md:mb-0 md:py-10 md:w-1/2 h-[400px] overflow-hidden rounded-xl shadow-lg"
+                        className="max-w-[400px] mt-15 md:mt-0 md:w-1/2 h-[400px] overflow-hidden rounded-xl shadow-lg"
 
           >
             <img
-              className="w-full h-full object-cover"
+              className="w-full  h-full object-cover"
               src={image1}
               alt="Work illustration"
             />

@@ -166,7 +166,7 @@ const contentData = {
 
 const ContentBlock = ({ title, description, link }) => (
   <div className="flex flex-col items-center justify-center p-6 md:p-8 text-center bg-white rounded-lg shadow-lg h-full">
-    <h2 className="text-4xl sm:text-5xl md:text-6xl font-['Bebas_Neue'] tracking-wide text-gray-900 mb-4 leading-tight">
+    <h2 className="text-4xl font-Rolf tracking-wider mb-10 sm:text-5xl md:text-6xl   text-gray-900 mb-4 leading-tight">
       {title}
     </h2>
     <p className="text-xs sm:text-sm md:text-base font-['Montserrat'] leading-relaxed text-gray-600 mb-6 max-w-xs sm:max-w-sm md:max-w-md">

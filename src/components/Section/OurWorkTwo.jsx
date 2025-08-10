@@ -149,7 +149,7 @@ const OurWorkTwo = ({ title2, description2, image2 }) => {
             initial={{ x: -150, opacity: 0 }}
             animate={hasAnimated ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.9 }}
-            className="max-w-[400px] md:w-1/2 h-[400px] overflow-hidden rounded-xl shadow-lg"
+            className="max-w-[400px] mt-15 md:mt-0 md:w-1/2 h-[400px] overflow-hidden rounded-xl shadow-lg"
           >
             <img
               className="w-full h-full object-cover"
@@ -163,7 +163,7 @@ const OurWorkTwo = ({ title2, description2, image2 }) => {
             initial={{ x: 150, opacity: 0 }}
             animate={hasAnimated ? { x: 0, opacity: 1 } : {}}
             transition={{ duration: 0.9 }}
-            className="max-w-[400px] py-27 md:w-1/2 text-gray-800 space-y-4"
+            className="max-w-[400px] py-15 md:py-27 md:w-1/2 text-gray-800 space-y-4"
           >
             <img className="text-white max-w-[50px] filter brightness-0 invert" src="images/logolotus.png" alt="lotus logo" />
             <h3

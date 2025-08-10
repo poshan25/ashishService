@@ -1,8 +1,14 @@
+
+@font-face{
+  font-family: Rolf;
+  src: url("../src/assets/fonts/fonnts.com-Rolf-Regular.ttf")
+}
+
 @import "tailwindcss";
 
-
 @theme {
-  
+    --font-Rolf: Rolf, "sans-serif";
+
   /* fonts */
   --font-display: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
