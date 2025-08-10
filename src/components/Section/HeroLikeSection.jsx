@@ -73,7 +73,7 @@ const HeroLikeSection = ({ text, src, alt = "", className = "" }) => {
         alt={alt}
         className="w-full h-full object-cover"
       />
-      <p className="absolute inset-0 flex items-center justify-center text-white font-bold text-3xl sm:text-5xl md:text-7xl text-center px-4">
+      <p className="font-Rolf tracking-wider absolute inset-0 flex items-center justify-center text-white font-bold text-3xl sm:text-5xl md:text-7xl text-center px-4">
         {text}
       </p>
     </div>
