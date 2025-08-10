@@ -18,7 +18,7 @@ function OurSolution() {
         {/* Grid for the four pathway steps */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  ">
           {/* Step 1: Rescue Victims */}
-          <div className="flex  flex-col items-center text-center p-4 shadow-lg ">
+          <div className="flex  flex-col items-center text-center p-4 ">
             <div className="w-full h-64 overflow-hidden  mb-4">
               <img
                 loading="lazy"
@@ -32,7 +32,7 @@ function OurSolution() {
             <a
               href="https://www.ourdaughtersinternational.org/rescue"
               target="_self"
-              className="mt-[-30px] md:px-10 px-3 py-2 bg-[#dc8cb1] text-white font-semibold rounded-full shadow-md hover:bg-teal-700 transition duration-300 flex items-center justify-center "
+              className="mt-[-30px] md:px-10 px-3 py-2 bg-[#dc8cb1] text-white font-semibold rounded-full  hover:bg-teal-700 transition duration-300 flex items-center justify-center "
               aria-label="RESCUE VICTIMS"
             >
               <span className="text-sm sm:text-base">RESCUE VICTIMS</span>
@@ -46,7 +46,7 @@ function OurSolution() {
           </div>
 
           {/* Step 2: Restore Daughters */}
-          {/* <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-lg bg-white">
+          {/* <div className="flex flex-col items-center text-center p-4 rounded-lg-lg bg-white">
             <div className="w-full h-64 overflow-hidden rounded-lg mb-4">
               <img
                 loading="lazy"
@@ -59,7 +59,7 @@ function OurSolution() {
             <a
               href="https://www.ourdaughtersinternational.org/restore"
               target="_self"
-              className="mt-auto px-6 py-3 bg-teal-600 text-white font-semibold rounded-full shadow-md hover:bg-teal-700 transition duration-300 flex items-center justify-center space-x-2 w-full"
+              className="mt-auto px-6 py-3 bg-teal-600 text-white font-semibold rounded-full  hover:bg-teal-700 transition duration-300 flex items-center justify-center space-x-2 w-full"
               aria-label="RESTORE DAUGHTERS"
             >
               <span className="text-sm sm:text-base">RESTORE DAUGHTERS</span>
@@ -70,7 +70,7 @@ function OurSolution() {
               </svg>
             </a>
           </div> */}
-          <div className="flex  flex-col items-center text-center p-4 shadow-lg ">
+          <div className="flex  flex-col items-center text-center p-4 ">
             <div className="w-full h-64 overflow-hidden  mb-4">
               <img
                 loading="lazy"
@@ -84,7 +84,7 @@ function OurSolution() {
             <a
               href="https://www.ourdaughtersinternational.org/rescue"
               target="_self"
-              className="mt-[-30px] md:px-10 px-3 py-2 bg-[#e98524] text-white font-semibold rounded-full shadow-md hover:bg-teal-700 transition duration-300 flex items-center justify-center "
+              className="mt-[-30px] md:px-10 px-3 py-2 bg-[#e98524] text-white font-semibold rounded-full  hover:bg-teal-700 transition duration-300 flex items-center justify-center "
               aria-label="RESCUE VICTIMS"
             >
               <span className="text-sm sm:text-base">Restore Daughters</span>
@@ -98,7 +98,7 @@ function OurSolution() {
           </div>
 
           {/* Step 3: Empower Leaders */}
-          {/* <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-lg bg-white">
+          {/* <div className="flex flex-col items-center text-center p-4 rounded-lg bg-white">
             <div className="w-full h-64 overflow-hidden rounded-lg mb-4">
               <img
                 loading="lazy"
@@ -111,7 +111,7 @@ function OurSolution() {
             <a
               href="https://www.ourdaughtersinternational.org/empower"
               target="_self"
-              className="mt-auto px-6 py-3 bg-teal-600 text-white font-semibold rounded-full shadow-md hover:bg-teal-700 transition duration-300 flex items-center justify-center space-x-2 w-full"
+              className="mt-auto px-6 py-3 bg-teal-600 text-white font-semibold rounded-full  hover:bg-teal-700 transition duration-300 flex items-center justify-center space-x-2 w-full"
               aria-label="EMPOWER LEADERS"
             >
               <span className="text-sm sm:text-base">EMPOWER LEADERS</span>
@@ -122,7 +122,7 @@ function OurSolution() {
               </svg>
             </a>
           </div> */}
-          <div className="flex flex-col items-center text-center p-4 shadow-lg ">
+          <div className="flex flex-col items-center text-center p-4 ">
             <div className="w-full h-64 overflow-hidden  mb-4">
               <img
                 loading="lazy"
@@ -136,7 +136,7 @@ function OurSolution() {
             <a
               href="https://www.ourdaughtersinternational.org/rescue"
               target="_self"
-              className="mt-[-30px] md:px-10 px-3 py-2 bg-[#6c267b] text-white font-semibold rounded-full shadow-md hover:bg-teal-700 transition duration-300 flex items-center justify-center "
+              className="mt-[-30px] md:px-10 px-3 py-2 bg-[#6c267b] text-white font-semibold rounded-full  hover:bg-teal-700 transition duration-300 flex items-center justify-center "
               aria-label="RESCUE VICTIMS"
             >
               <span className="text-sm sm:text-base">Empower Leaders</span>
@@ -150,7 +150,7 @@ function OurSolution() {
           </div>
 
           {/* Step 4: Transform Communities */}
-          {/* <div className="flex flex-col items-center text-center p-4 rounded-lg shadow-lg bg-white">
+          {/* <div className="flex flex-col items-center text-center p-4 rounded-lg bg-white">
             <div className="w-full h-64 overflow-hidden rounded-lg mb-4">
               <img
                 loading="lazy"
@@ -163,7 +163,7 @@ function OurSolution() {
             <a
               href="https://www.ourdaughtersinternational.org/transform"
               target="_self"
-              className="mt-auto px-6 py-3 bg-teal-600 text-white font-semibold rounded-full shadow-md hover:bg-teal-700 transition duration-300 flex items-center justify-center space-x-2 w-full"
+              className="mt-auto px-6 py-3 bg-teal-600 text-white font-semibold rounded-full  hover:bg-teal-700 transition duration-300 flex items-center justify-center space-x-2 w-full"
               aria-label="TRANSFORM COMMUNITIES"
             >
               <span className="text-sm sm:text-base">TRANSFORM COMMUNITIES</span>
@@ -174,7 +174,7 @@ function OurSolution() {
               </svg>
             </a>
           </div> */}
-          <div className="flex  flex-col items-center text-center p-4 shadow-lg ">
+          <div className="flex  flex-col items-center text-center p-4 ">
             <div className="w-full h-64 overflow-hidden  mb-4">
               <img
                 loading="lazy"
@@ -188,7 +188,7 @@ function OurSolution() {
             <a
               href="https://www.ourdaughtersinternational.org/rescue"
               target="_self"
-              className="mt-[-30px] md:px-3 px-1 py-2 bg-teal-600 text-white font-semibold rounded-full shadow-md hover:bg-teal-700 transition duration-300 flex items-center justify-center "
+              className="mt-[-30px] md:px-3 px-1 py-2 bg-teal-600 text-white font-semibold rounded-full  hover:bg-teal-700 transition duration-300 flex items-center justify-center "
               aria-label="RESCUE VICTIMS"
             >
               <span className="text-sm sm:text-base">Transform Communities</span>

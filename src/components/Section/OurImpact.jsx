@@ -163,7 +163,7 @@ function OurImpact() {
             href="http://ourdaughtersinternational.org/2024impact"
             target="_blank"
             rel="noreferrer noopener"
-            className="px-15 py-3 bg-orange-400 text-white font-semibold rounded-full shadow-lg hover:bg-orange-600 transition duration-300 flex items-center justify-center space-x-3"
+            className="md:px-15 px-8 py-3 bg-orange-400 text-white font-semibold rounded-full shadow-lg hover:bg-orange-600 transition duration-300 flex items-center justify-center space-x-3"
             aria-label="READ THE 2024 IMPACT REPORT"
           >
             <span>READ THE 2024 IMPACT REPORT</span>
