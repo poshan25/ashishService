@@ -222,3 +222,4 @@ function DetailedAboutUs() {
 }
 
 export default DetailedAboutUs;
+
