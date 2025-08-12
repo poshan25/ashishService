@@ -111,12 +111,24 @@ function OurImpact() {
 
       <div className="max-w-6xl mx-auto w-full space-y-12 relative z-10">
         {/* Section Title */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold tracking-wider text-white mb-4">
             OUR IMPACT
           </h2>
           <div className="w-45 h-1 bg-[#e98524] mx-auto mt-[-10px] rounded-full"></div>
-        </div>
+        </div> */}
+        <div
+            // style={{ color: "var(--color-title)" }}
+            className="text-center text-[40px] font-bold mb-10"
+          >
+            <div className="inline-block">
+              OUR IMPACT
+              <div
+                // style={{ backgroundColor: "var(--color-title2)" }}
+                className="h-[4px] bg-[#e48223] w-full "
+              ></div>
+            </div>
+          </div>
 
         {/* Impact Statistics Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 mt-12">
