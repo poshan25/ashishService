@@ -224,9 +224,12 @@ Disabled button states or inactive elements. */
     /* --color-title: #1447e6; */
     --color-titleUnderline: #00b8db;
     
-        --color-title: #0b9efa;
+        /* --color-title: #0b9efa; */
 
-    --color-title2: #00b8db;
+                --color-title: #24a69a;
+
+    /* --color-title2: #00b8db; */
+    --color-title2: #24a69a;
 
     /* subheading color */
     
