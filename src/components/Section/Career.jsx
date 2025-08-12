@@ -60,7 +60,7 @@ const Career = () => {
       {/* Job Listings */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
-          <div
+          {/* <div
             style={{ color: "var(--color-title)" }}
             className="text-center text-[40px]  font-bold mb-10"
           >
@@ -70,6 +70,18 @@ const Career = () => {
               className="mt-[-50px] "
             >
               _______________________
+            </div>
+          </div> */}
+           <div
+            style={{ color: "var(--color-title)" }}
+            className="text-center text-[40px] font-bold mb-10"
+          >
+            <div className="inline-block">
+              Current Openings
+              <div
+                style={{ backgroundColor: "var(--color-title2)" }}
+                className="h-[3px] w-full mt-1"
+              ></div>
             </div>
           </div>
 
@@ -89,7 +101,16 @@ const Career = () => {
                       {job.title}
                     </h3>
                     <div className="flex items-center mt-2 space-x-4">
-                      <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                      {/* <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
+                        {job.type}
+                      </span> */}
+                      <span
+                        className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium"
+                        style={{
+                          backgroundColor: "var(--color-btnColor)",
+                          color: "white",
+                        }}
+                      >
                         {job.type}
                       </span>
                       <span className="text-gray-600">
