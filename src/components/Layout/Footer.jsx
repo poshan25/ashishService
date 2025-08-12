@@ -179,7 +179,8 @@ const Footer = () => {
                 />
                 <Button
                   text={t("footer.signUp")}
-                  styling="bg-[#00b8db] cursor-pointer hover:bg-blue-400 text-white px-3 py-1 text-sm"
+                  styling="cursor-pointer hover:opacity-80 text-white px-3 py-1 text-sm"
+                  style={{ backgroundColor: "#24a69a" }}
                 />
               </div>
             </div>
@@ -187,7 +188,7 @@ const Footer = () => {
 
           {/* Map */}
           <div className="h-64 md:h-[250px] lg:h-[280px] w-full">
-            <div className="rounded-lg overflow-hidden shadow-sm h-full w-full">
+            <div className=" overflow-hidden shadow-sm h-full w-full">
               <MapEmbed />
             </div>
           </div>

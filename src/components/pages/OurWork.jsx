@@ -5,11 +5,18 @@ import { useState, useEffect } from "react";
 import Footer from "../Layout/Footer";
 import OurWorkOne from "../Section/OurWorkOne";
 import OurWorkTwo from "../Section/OurWorkTwo";
+import HeroLikeSection from "../Section/HeroLikeSection";
 
 const OurWork = () => {
   return (
     <div className="pt-20">
-      <div 
+      <HeroLikeSection
+          src="images/AboutUsDemoImg.jpg"
+          alt="Hero Image"
+          className="h-screen"
+          text="Our Work"
+        />
+      {/* <div 
         style={{ color: "var(--color-pprimary)" }}
         className="text-center text-[40px] font-bold mt-15"
       >
@@ -20,7 +27,7 @@ const OurWork = () => {
         >
           ______________
         </div>
-      </div>
+      </div> */}
 
       {/* <OurWorkOne/> */}
       <OurWorkOne

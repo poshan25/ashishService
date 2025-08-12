@@ -1,4 +1,5 @@
 import React from "react";
+import HeroLikeSection from "./HeroLikeSection";
 
 const jobs = [
   {
@@ -20,7 +21,14 @@ const jobs = [
 
 const Career = () => {
   return (
-    <main className="bg-gray-50">
+    <main className="bg-gray-50 mt-20">
+ <HeroLikeSection
+          src="images/AboutUsDemoImg.jpg"
+          alt="Hero Image"
+          className="h-screen"
+          text="Join Our Team"
+        />
+    
       {/* Hero Section */}
       <section className="py-20  text-white mt-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -31,17 +39,17 @@ const Career = () => {
               alt="lotus logo"
             />
 
-            <h1
+            {/* <h1
               style={{ color: "var(--color-subHeading)" }}
               className="text-4xl md:text-5xl font-bold "
             >
               Join Our Mission
-            </h1>
+            </h1> */}
           </div>
 
           <p
             style={{ color: "var(--color-lotusFont)" }}
-            className="leading-tight text-[18px] max-w-3xl mx-auto"
+            className="leading-tight md:text-2xl font-semibold text-[18px] max-w-4xl mx-auto"
           >
             Be a part of our journey to combat human trafficking and empower
             communities.

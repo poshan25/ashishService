@@ -51,7 +51,8 @@ function ContactForm() {
           {/* Send Button */}
           <button
             type="submit"
-            className="bg-teal-500 text-white rounded-full py-2 px-6 w-full hover:bg-teal-600 transition"
+            className="text-white rounded-full py-2 px-6 w-full hover:opacity-80 transition"
+            style={{ backgroundColor: "#24a69a" }}
           >
             Send
           </button>

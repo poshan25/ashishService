@@ -33,10 +33,16 @@
 import React from 'react';
 
 const Button = ({ text, onClick, styling, style }) => {
+  const buttonStyle = {
+    background: style?.backgroundColor || "var(--color-btnColor)",
+    color: "white",
+    ...style
+  };
+  
   return (
     <button
       onClick={onClick}
-      style={{ background: "var(--color-btnColor)" }}
+      style={buttonStyle}
       className={`transition-all duration-300 transform hover:scale-80 hover:text-xl ${styling} `}
     >
       {text}

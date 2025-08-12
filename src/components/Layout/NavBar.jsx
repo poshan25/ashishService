@@ -35,37 +35,38 @@ const LanguageSwitcher = ({ textColor }) => {
   }, [i18n.language]);
 
   return (
-    <div className="language-switcher relative">
-      <button
-        onClick={toggleDropdown}
-        className={`p-2 rounded-full hover:bg-gray-200 transition-colors ${textColor}`}
-        aria-label="Change language"
-      >
-        <img src="images/world.png" strokeLinecap="round"
-            className="h-5 w-5" 
+    <></>
+    // <div className="language-switcher relative">
+    //   <button
+    //     onClick={toggleDropdown}
+    //     className={`p-2 rounded-full hover:bg-gray-200 transition-colors ${textColor}`}
+    //     aria-label="Change language"
+    //   >
+    //     <img src="images/world.png" strokeLinecap="round"
+    //         className="h-5 w-5" 
                      
-         alt="multilanguageImg" />
-      </button>
+    //      alt="multilanguageImg" />
+    //   </button>
 
-      {isOpen && (
-        <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200">
-          {languages.map((lng) => (
-            <button
-              key={lng.code}
-              className={`flex items-center w-full px-4 py-2 text-sm ${
-                i18n.language === lng.code
-                  ? "bg-gray-100"
-                  : "hover:bg-gray-100"
-              }`}
-              onClick={() => changeLanguage(lng.code)}
-            >
-              <span className="mr-2 text-xl">{lng.flag}</span>
-              {lng.lang}
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
+    //   {isOpen && (
+    //     <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200">
+    //       {languages.map((lng) => (
+    //         <button
+    //           key={lng.code}
+    //           className={`flex items-center w-full px-4 py-2 text-sm ${
+    //             i18n.language === lng.code
+    //               ? "bg-gray-100"
+    //               : "hover:bg-gray-100"
+    //           }`}
+    //           onClick={() => changeLanguage(lng.code)}
+    //         >
+    //           <span className="mr-2 text-xl">{lng.flag}</span>
+    //           {lng.lang}
+    //         </button>
+    //       ))}
+    //     </div>
+    //   )}
+    // </div>
   );
 };
 

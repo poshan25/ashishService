@@ -67,7 +67,7 @@ import React from "react";
 
 const HeroLikeSection = ({ text, src, alt = "", className = "" }) => {
   return (
-    <div className={`relative w-full h-screen ${className}`}>
+    <div className={`relative w-full   h-screen ${className}`}>
       <img
         src={src}
         alt={alt}

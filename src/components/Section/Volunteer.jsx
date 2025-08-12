@@ -1,32 +1,42 @@
 import React from "react";
+import HeroLikeSection from "./HeroLikeSection";
 
 const volunteerRoles = [
   {
     title: "Community Outreach Volunteer",
     type: "Field Work",
     location: "Butwal",
-    description: "Help with awareness campaigns, community education, and victim support in the field.",
+    description:
+      "Help with awareness campaigns, community education, and victim support in the field.",
     applyLink: "mailto:assn2063@gmail.com",
   },
   {
     title: "Digital Content Volunteer",
     type: "Remote",
     location: "Online",
-    description: "Assist with creating social media content, blogs, and survivor stories.",
+    description:
+      "Assist with creating social media content, blogs, and survivor stories.",
     applyLink: "mailto:assn2063@gmail.com",
   },
   {
     title: "Fundraising Volunteer",
     type: "Flexible",
     location: "Hybrid",
-    description: "Help organize fundraising events and donor outreach programs.",
+    description:
+      "Help organize fundraising events and donor outreach programs.",
     applyLink: "mailto:assn2063@gmail.com",
   },
 ];
 
 const Volunteer = () => {
   return (
-    <main className="bg-gray-50">
+    <main className="bg-gray-50 mt-20">
+      <HeroLikeSection
+        src="images/AboutUsDemoImg.jpg"
+        alt="Hero Image"
+        className="h-screen"
+        text="Volunteer with Us"
+      />
       {/* Hero Section */}
       <section className="py-20 text-white mt-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -36,18 +46,19 @@ const Volunteer = () => {
               src="images/logolotus.png"
               alt="lotus logo"
             />
-            <h1
+            {/* <h1
               style={{ color: "var(--color-subHeading)" }}
               className="text-4xl md:text-5xl font-bold"
             >
               Become a Volunteer
-            </h1>
+            </h1> */}
           </div>
           <p
             style={{ color: "var(--color-lotusFont)" }}
-            className="leading-tight text-[18px] max-w-3xl mx-auto"
+            className="leading-tight md:text-2xl font-semibold text-[18px] max-w-4xl mx-auto"
           >
-            Join our team of dedicated volunteers working to end human trafficking and support survivors.
+            Join our team of dedicated volunteers working to end human
+            trafficking and support survivors.
           </p>
         </div>
       </section>
@@ -55,7 +66,7 @@ const Volunteer = () => {
       {/* Volunteer Opportunities */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
-          <div 
+          {/* <div 
             style={{ color: "var(--color-title)" }}
             className="text-center text-[40px] font-bold mb-10"
           >
@@ -65,6 +76,18 @@ const Volunteer = () => {
               className="mt-[-50px]"
             >
               _______________________
+            </div>
+          </div> */}
+          <div
+            style={{ color: "var(--color-title)" }}
+            className="text-center text-[40px] font-bold mb-10"
+          >
+            <div className="inline-block">
+              Volunteer Opportunities
+              <div
+                style={{ backgroundColor: "var(--color-title2)" }}
+                className="h-[2px] w-full mt-2"
+              ></div>
             </div>
           </div>
 
@@ -84,11 +107,11 @@ const Volunteer = () => {
                       {role.title}
                     </h3>
                     <div className="flex items-center mt-2 space-x-4">
-                      <span 
+                      <span
                         className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium"
-                        style={{ 
+                        style={{
                           backgroundColor: "var(--color-btnColor)",
-                          color: "white"
+                          color: "white",
                         }}
                       >
                         {role.type}
@@ -168,25 +191,28 @@ const Volunteer = () => {
               {
                 icon: "👐",
                 title: "Make an Impact",
-                description: "Directly contribute to ending human trafficking and supporting survivors."
+                description:
+                  "Directly contribute to ending human trafficking and supporting survivors.",
               },
               {
                 icon: "🌟",
                 title: "Grow Skills",
-                description: "Develop valuable experience in social work, advocacy, and community organizing."
+                description:
+                  "Develop valuable experience in social work, advocacy, and community organizing.",
               },
               {
                 icon: "💞",
                 title: "Join a Community",
-                description: "Connect with like-minded individuals passionate about social justice."
-              }
+                description:
+                  "Connect with like-minded individuals passionate about social justice.",
+              },
             ].map((benefit, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="bg-gray-50 p-6 rounded-lg text-center"
               >
                 <div className="text-4xl mb-4">{benefit.icon}</div>
-                <h3 
+                <h3
                   className="text-xl font-semibold mb-2"
                   style={{ color: "var(--color-title)" }}
                 >
@@ -210,7 +236,8 @@ const Volunteer = () => {
               Ready to make a difference?
             </h3>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Even if you don't see the perfect role, we'd love to hear how you'd like to contribute.
+              Even if you don't see the perfect role, we'd love to hear how
+              you'd like to contribute.
             </p>
             <a
               href="mailto:assn2063@gmail.com"
