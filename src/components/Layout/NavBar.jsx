@@ -167,49 +167,49 @@ const NavLinks = ({ textColor }) => {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }
         }}
-        className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+        className={`${textColor} hover:text-[#24a69a] font-semibold transition`}
       >
         Home
       </Link>
 
       <Link
         to="/aboutus"
-        className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+        className={`${textColor} hover:text-[#24a69a] font-semibold transition`}
       >
         About Us
       </Link>
 
       <Link
         to="/ourwork"
-        className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+        className={`${textColor} hover:text-[#24a69a] font-semibold transition`}
       >
         Our Work
       </Link>
 
       <Link
         to="/career"
-        className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+        className={`${textColor} hover:text-[#24a69a] font-semibold transition`}
       >
         Career
       </Link>
 
       <Link
         to="/volunteer"
-        className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+        className={`${textColor} hover:text-[#24a69a] font-semibold transition`}
       >
         Volunteer
       </Link>
 
       <Link
         to="/account"
-        className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+        className={`${textColor} hover:text-[#24a69a] font-semibold transition`}
       >
         Donate
       </Link>
 
       <Link
         to="/contact-us"
-        className={`${textColor} hover:text-cyan-500 font-semibold transition`}
+        className={`${textColor} hover:text-[#24a69a] font-semibold transition`}
       >
         Contact Us
       </Link>
