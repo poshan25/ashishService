@@ -86,7 +86,7 @@ const Volunteer = () => {
               Volunteer Opportunities
               <div
                 style={{ backgroundColor: "var(--color-title2)" }}
-                className="h-[2px] w-full mt-2"
+                className="h-[2px] w-full mt-1"
               ></div>
             </div>
           </div>
