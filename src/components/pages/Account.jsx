@@ -48,7 +48,7 @@ const AccountPage = () => {
       <div className="max-w-4xl mx-auto px-6 py-12 md:py-16">
         <div className="bg-white rounded-xl shadow-md overflow-hidden">
           {/* Donation Appeal */}
-          <div className="p-8 md:p-10 bg-gradient-to-r from-blue-500 to-blue-800 text-white">
+          <div className="p-8 md:p-10 bg-gradient-to-r from-[#24a69a] to-[#4dc2b6] text-white">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Even small contributions create big impacts
             </h2>
