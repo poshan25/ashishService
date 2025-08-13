@@ -140,7 +140,7 @@ const Donate = () => {
 
   return (
     <div>
-      <hr className="h-px bg-gray-300 border-0" />
+      <hr className="h-px mt-25 bg-gray-300 border-0" />
       <div
         className="mx-auto flex justify-center items-center h-[500px]  px-6 py-16 bg-cover bg-center relative"
         style={{

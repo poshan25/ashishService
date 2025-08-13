@@ -109,7 +109,7 @@ const HomePage = () => {
 
       {/* <Myth /> */}
       <Work />
-      <ContactPage />
+      {/* <ContactPage /> */}
       <Donate />
     </div>
   );
